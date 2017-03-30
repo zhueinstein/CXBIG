@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>
+<html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>
+<html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>
+<html lang="en" ng-app="myApp" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en" ng-app="myApp" class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title> 中国影视歌曲歌手大赛安徽官网</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="target-densitydpi=device-dpi, width=640px, user-scalable=no">
+    <link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/normalize.css">
+    <link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/main.css">
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="./resources/css/common.css"/>
+    <link rel="stylesheet" href="./resources/css/cssreset.css"/>
+    <link rel="stylesheet" href="./resources/css/animate.min.css"/>
+    <link rel="stylesheet" href="./resources/css/main.css"/>
+    <link rel="stylesheet" href="./resources/css/swiper.min.css"/>
+    <script src="bower_components/html5-boilerplate/dist/js/vendor/modernizr-2.8.3.min.js"></script>
+
+
+</head>
+<body>
+<!--[if lt IE 7]>
+<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
+    your browser</a> to improve your experience.</p>
+<![endif]-->
+
+<div id="body" class="auto">
+    <header id="header">
+        <span class="sp_1 tc auto">
+            <a href="#!home">
+                <img src="./resources/images/logo_03.png" alt="LOGO"/>
+            </a>
+        </span>
+        <a href="javascript:void(0)" class="a_2">
+            <img src="./resources/images/anniu.png" alt=""/>
+        </a>
+        <ul class="nav_1">
+            <li><a href="#!home" class="a_1">首页</a></li>
+            <li><a href="#!matchIntroduction" class="a_1">赛事简介</a>
+            </li>
+            <li><a href="#!matchColl" class="a_1">赛事集锦</a>
+            </li>
+            <li><a href="#!competitor" class="a_1">选手风采</a>
+            </li>
+            <li><a href="#!news" class="a_1">最新资讯</a>
+            </li>
+            <li><a href="#!supportEnterprise" class="a_1">支持企业</a>
+            </li>
+            <li><a href="#!apply" class="a_1">报名方式</a>
+            </li>
+        </ul>
+    </header>
+    <div class="public">
+        <!-- banner -->
+        <div class="banner fix">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="./resources/images/5863335e5c1a1.png" alt=""/></div>
+                    <div class="swiper-slide"><img src="./resources/images/5897de4138cf3.png" alt=""/></div>
+                    <div class="swiper-slide"><img src="./resources/images/5897de558fbbf.png" alt=""/></div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+        <ng-view></ng-view>
+        <div class="ban-bom mt40">
+            地址：安徽省合肥市包河区中海滨湖公馆A03栋1105室 <br/>“中国影视歌曲歌手大赛”安徽赛区组织委员会唯一官方网站
+        </div>
+        <div class="auto container">
+            <div class="fenxiang_02"><!-- JiaThis Button BEGIN -->
+                <div class="jiathis_style_32x32">
+                    <a class="jiathis_button_qzone"></a>
+                    <a class="jiathis_button_tsina"></a>
+                    <a class="jiathis_button_tqq"></a>
+                    <a class="jiathis_button_weixin"></a>
+                </div>
+                <script type="text/javascript" src="jia.js" tppabs="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
+                <!-- JiaThis Button END -->
+            </div>
+        </div>
+        <div class="footer fix tc">
+            <ul>
+                <li class="on">
+                    <a href="#!home" tppabs="http://www.china-ygs.com/">
+                        <img src="./resources/images/10.png">
+                        <span>首页</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="tel:15210976357">
+                        <img src="./resources/images/11.png">
+                        <span>电话</span>
+                    </a>
+                </li>
+                <li class="fenxiang">
+                    <a href="javascript:;">
+                        <img src="./resources/images/12.png">
+                        <span>分享</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script src="./resources/js/jquery.js"></script>
+    <!-- 点击列表 -->
+    <script src="./resources/js/pub.js"></script>
+    <script src="./resources/js/jia.js"></script>
+    <!-- banner -->
+    <script src="./resources/js/swiper.min.js"></script>
+    <script type="text/javascript">
+        var swiper = new Swiper('.banner .swiper-container', {
+            pagination: '.banner .swiper-pagination',
+            paginationClickable: true,
+            autoplay: 5000,
+            paginationBulletRender: function (index, className) {
+                return '<span class="' + className + '">' + '</span>';
+            }
+        });
+    </script>
+    <script type="text/javascript">
+        var appendNumber = 4;
+        var prependNumber = 1;
+        var swiper = new Swiper('.index_s3 .swiper-container', {
+            pagination: '.index_s3 .swiper-pagination',
+            nextButton: '.index_s3 .swiper-button-next',
+            prevButton: '.index_s3 .swiper-button-prev',
+            slidesPerView: 3,
+            //centeredSlides: true,
+            //paginationClickable: true,
+            spaceBetween: -56,
+        });
+
+        document.querySelector('.prepend-2-slides').addEventListener('click', function (e) {
+            e.preventDefault();
+            swiper.prependSlide([
+                '<div class="swiper-slide">Slide ' + (--prependNumber) + '</div>',
+                '<div class="swiper-slide">Slide ' + (--prependNumber) + '</div>'
+            ]);
+        });
+
+        document.querySelector('.prepend-slide').addEventListener('click', function (e) {
+            e.preventDefault();
+            swiper.prependSlide('<div class="swiper-slide">Slide ' + (--prependNumber) + '</div>');
+        });
+
+        document.querySelector('.append-slide').addEventListener('click', function (e) {
+            e.preventDefault();
+            swiper.appendSlide('<div class="swiper-slide">Slide ' + (++appendNumber) + '</div>');
+        });
+
+        document.querySelector('.append-2-slides').addEventListener('click', function (e) {
+            e.preventDefault();
+            swiper.appendSlide([
+                '<div class="swiper-slide">Slide ' + (++appendNumber) + '</div>',
+                '<div class="swiper-slide">Slide ' + (++appendNumber) + '</div>'
+            ]);
+        });
+    </script>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="app.js"></script>
+    <script src="view1/view1.js"></script>
+    <script src="view2/view2.js"></script>
+    <script src="home/home.js"></script>
+    <script src="matchIntroduction/matchIntroduction.js"></script>
+    <script src="matchColl/matchColl.js"></script>
+    <script src="competitor/competitor.js"></script>
+    <script src="news/news.js"></script>
+    <script src="supportEnterprise/supportEnterprise.js"></script>
+    <script src="apply/apply.js"></script>
+    <script src="components/version/version.js"></script>
+    <script src="components/version/version-directive.js"></script>
+    <script src="components/version/interpolate-filter.js"></script>
+</body>
+</html>

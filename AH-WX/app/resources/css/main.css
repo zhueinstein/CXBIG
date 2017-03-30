@@ -1,0 +1,750 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    font-family: 宋体;
+}
+
+#body {
+    width: 640px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+
+/*公共*/
+h1 {
+    background: url(../images/04.png) no-repeat;
+    width: 154px;
+    height: 83px;
+    color: #fff;
+    line-height: 55px;
+    margin: 0px auto;
+    margin-bottom: 15px;
+}
+
+.index_s1,.index_s2,.index_s4,.index_s5 {
+    width: 602px;
+    margin: 20px auto;
+}
+
+.span {
+    background: url(../images/05.png) no-repeat no-repeat;
+    display: block;
+    height: 76px;
+    width: 602px;
+    margin-top: 30px;
+    letter-spacing: 7px;
+}
+
+.span a {
+    font-size: 28px;
+    color: #fff;
+    line-height: 70px;
+}
+
+.height {
+    height: 20px;
+    background: #F5F5F5;
+}
+
+.centers {
+    width: 602px;
+}
+
+/***********头部************/
+#header {
+    width: 640px;
+    height: 95px;
+    position: relative;
+    position: fixed;
+    z-index: 9999;
+    background: url(../images/01.png);
+}
+
+.public {
+    margin-top: 95px;
+    margin-bottom: 138px;
+}
+
+.sp_1 {
+    display: block;
+    margin-left: 20px;
+    width: 222px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.a_2 {
+    display: inline-block;
+    position: absolute;
+    top: 26px;
+    right: 20px;
+}
+
+.nav_1 {
+    width: 155px;
+    position: absolute;
+    top: 95px;
+    right: 0px;
+    background: url(../images/13.png);
+    opacity: 0.7;
+    overflow: hidden;
+    display: none;
+}
+
+.nav_1 li {
+    width: 155px;
+    height: 50px;
+    border-bottom: 1px dashed #DADBDD;
+}
+
+.nav_1 li .a_1 {
+    display: inline-block;
+    width: 155px;
+    height: 50px;
+    color: #333333;
+    line-height: 50px;
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+/*banner*/
+.swiper-container {
+    height: 350px;
+    width: 640px;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    background-repeat: no-repeat;
+}
+
+.swiper-pagination-bullet {
+    text-align: center;
+    line-height: 35px;
+    font-size: 20px;
+    color: #9a7e56;
+    background: #fff;
+}
+
+
+/*首页*/
+
+
+.index_s1 h2 {
+    color: #000000;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.index_s1 p {
+    font-size: 18px;
+    color: #333333;
+    line-height: 30px;
+}
+
+.index_s2 {
+    margin-top: 38px;
+}
+
+.index_s2 a {
+    font-size: 18px;
+    color: #333333;
+    line-height: 36px;
+    display: block;
+}
+
+
+.index_s2 .fr {
+    width: 495px;
+    text-align: left;
+}
+
+.index_s2 .span a {
+    font-size: 28px;
+    color: #fff;
+    line-height: 70px;
+}
+
+.index_s3 {
+    background: #F5F5F5;
+    padding: 39px 0px 0px 0px;
+    margin-top: 35px;
+    height: 385px;
+}
+
+.index_s3 .swiper-button-next {
+    margin-top: -122px;
+}
+
+.index_s3 .swiper-button-prev {
+    margin-top: -122px;
+}
+
+.index_s3 .swiper-container {
+    width: 100%;
+    margin: 40px auto;
+}
+
+.index_s3 .swiper-slide {
+    width: 137px;
+    text-align: center;
+    font-size: 18px;
+    position: relative;
+        /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    background: #F5F5F5;
+    position: relative;
+}
+
+.index_s3 .swiper-slide img {
+    width: 137px;
+    height: 137px;
+    border-radius: 50%;
+}
+
+.index_s3 .swiper-wrapper {
+    height: auto;
+}
+
+.index_s3 .title {
+    position: absolute;
+    margin-top: 110px;
+    width: 144px;
+}
+
+.index_s3 .title h3 {
+    font-size: 24px;
+    color: #333333;
+}
+
+.index_s3 .title p {
+    font-size: 18px;
+    color: #666666;
+}
+
+.index_s4 {
+    padding: 6px 0px 0px 0px;
+    margin-top: 35px;
+}
+
+.index_s4 ul li {
+    width: 288px;
+    float: left;
+    margin-top: 11px;
+    margin-bottom: 11px;
+}
+
+.index_s4 ul li:nth-child(2),.index_s4 ul li:nth-child(4) {
+    margin-left: 26px;
+}
+
+.index_s4 ul li p {
+    height: 42px;
+    line-height: 42px;
+    background: #F5F5F5;
+    margin-top: 6px;
+    font-size: 17px;
+    color: #333333;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.index_s4 ul li img {
+    width: 288px;
+    height: 216px;
+}
+
+.index_s5 {
+    padding: 0px 0px 0px 0px;
+    margin-top: 35px;
+}
+
+.index_s5 ul li {
+    width: 149px;
+    height: 111px;
+    float: left;
+    border-right: 1px solid #E5E5E5;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.index_s5 ul {
+    border: 1px solid #E5E5E5;
+    border-bottom: none;
+}
+
+.index_s5 ul li:nth-child(4),.index_s5 ul li:nth-child(8) {
+    border-right: none;
+}
+
+.ban-bom {
+    background: #F4F4F4;
+    display: block;
+    font-size: 20px;
+    color: #333333;
+    text-align: center;
+    padding: 25px 0px 23px 0px;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+
+
+/*footer*/
+.footer {
+    height: 95px;
+    font-family: 微软雅黑;
+    width: 640px;
+    position: fixed;
+    bottom: 0px;
+    z-index: 9999;
+}
+
+.footer ul li {
+    float: left;
+    width: 212.6px;
+    height: 70px;
+    background: #AA1F24;
+    padding-top: 25px;
+    font-size: 22px;
+    border-right: 1px solid #fff;
+}
+
+.footer ul li:nth-child(3) {
+    border: none;
+}
+
+.footer ul li a {
+    color: #fff;
+    display: block;
+}
+
+.footer ul li img {
+    margin-right: 12px;
+    position: relative;
+    top: 7px;
+}
+
+.footer ul li.on {
+    background: #8E191C;
+}
+
+
+
+
+/*赛事简介*/
+.ssjj_s1 {
+    height: auto;
+}
+
+.ssjj_s1 a {
+    width: 141px;
+    height: 46px;
+    background: #F8F8F8;
+    display: block;
+    float: left;
+    line-height: 46px;
+    font-size: 20px;
+    color: #333333;
+    margin-right: 6px;
+    margin-left: 6px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+.ssjj_s1 a.on {
+    background: #C21B1B;
+    color: #fff;
+}
+
+.ssjj_s2 {
+    width: 602px;
+}
+
+.ssjj_s2 h3 {
+    font-size: 20px;
+    color: #333;
+}
+
+.ssjj_s2 h4 {
+    font-size: 18px;
+    color: #333;
+    padding-top: 40px;
+}
+
+.ssjj_s2 .fl {
+    width: 351px;
+    font-size: 18px;
+    color: #666;
+    line-height: 33px;
+}
+
+.ssjj_s3 {
+    font-size: 18px;
+    color: #666;
+    line-height: 33px;
+    width: 602px;
+}
+
+.ssjj_s4 {
+    font-size: 18px;
+    color: #666;
+    line-height: 33px;
+    width: 602px;
+}
+
+.ssjj_s4 .fl {
+    width: 178px;
+    margin-right: 55px;
+}
+
+
+
+/*支持媒体*/
+.zcmt_s1 a {
+    border: 1px solid #F5F5F5;
+    width: 290px;
+    height: 82px;
+    display: block;
+    float: left;
+    margin-right: 17px;
+    margin-bottom: 20px;
+}
+
+.zcmt_s2 {
+    margin-left: 145px;
+}
+
+.zcmt_s2 a {
+    width: 141px;
+    height: 46px;
+    background: #C21B1B;
+    display: block;
+    float: left;
+    line-height: 46px;
+    font-size: 20px;
+    color: #fff;
+    margin-right: 73px;
+    border-radius: 4px;
+}
+
+
+
+/*组织委员*/
+.zzwy_s1 a {
+    width: 291px;
+    display: block;
+    float: left;
+    font-size: 20px;
+    color: #fff;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.zzwy_s1 p {
+    background: url(../images/18.png);
+    height: 52px;
+    text-align: center;
+    line-height: 52px;
+    position: absolute;
+    bottom: 7px;
+    width: 100%;
+}
+
+
+/*赛区简介*/
+.sqjj_s1 {
+    margin: 0px auto;
+    margin-top: 40px;
+    width: 170px;
+}
+
+.sqjj_s1 a {
+    width: 141px;
+    height: 46px;
+    background: #F8F8F8;
+    display: block;
+    float: left;
+    line-height: 46px;
+    font-size: 20px;
+    color: #333333;
+    margin-right: 6px;
+    margin-left: 6px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+.sqjj_s1 a.on {
+    background: #C21B1B;
+    color: #fff;
+}
+
+.sqjj_xq1 h3 {
+    font-size: 20px;
+    color: #000000;
+    font-weight: normal;
+    width: 535px;
+}
+
+.sqjj_xq1 p {
+    font-size: 18px;
+    color: #666;
+    line-height: 30px;
+}
+
+
+
+
+/*视频集锦*/
+.spjj_s1 {
+    margin: 0px auto;
+    margin-top: 40px;
+    width: 330px;
+}
+
+.spjj_s1 a {
+    width: 141px;
+    height: 46px;
+    background: #F8F8F8;
+    display: block;
+    float: left;
+    line-height: 46px;
+    font-size: 20px;
+    color: #333333;
+    margin-right: 11px;
+    margin-left: 11px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+.spjj_s1 a.on {
+    background: #C21B1B;
+    color: #fff;
+}
+
+.spjj_s2 a {
+    width: 290px;
+    display: block;
+    float: left;
+    font-size: 20px;
+    color: #fff;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.spjj_s2 span {
+    text-align: center;
+    line-height: 40px;
+    color: #333333;
+    font-size: 18px;
+}
+
+.spjj_s2 p {
+    background: url(../images/18.png);
+    width: 290px;
+    height: 135px;
+    position: absolute;
+    top: 0px;
+    text-align: center;
+    padding-top: 83px;
+}
+
+.spjj_s2 .fr {
+    color: #999999;
+}
+
+
+
+/*精彩集锦*/
+.jcjj_s1 a {
+    width: 290px;
+    display: block;
+    float: left;
+    font-size: 20px;
+    color: #fff;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.jcjj_s1 a img {
+    margin-bottom: 10px;
+}
+
+.jcjj_s1 span {
+    color: #333333;
+    font-size: 18px;
+}
+
+.jcjj_s1 span p {
+    color: #999999;
+    font-size: 18px;
+}
+
+.jcjj_s1 .fr {
+    background: url(../images/27.png);
+    width: 22px;
+    height: 22px;
+    margin-top: 13px;
+}
+
+.jcjj_xq h2 {
+    font-size: 20px;
+    color: #333;
+}
+
+.jcjj_xq img {
+    width: 471px;
+    height: 344px;
+    margin-bottom: 13px;
+    margin-top: 25px;
+}
+
+.jcjj_xq p {
+    font-size: 18px;
+    color: #666;
+    line-height: 30px;
+    text-align: left;
+    text-indent: 2em;
+}
+
+
+
+/*选手风采*/
+.xsfc_s1 {
+    width: 602px;
+}
+
+.xsfc_s1 .swiper-container {
+    width: 100%;
+    height: 638px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.xsfc_s1 .swiper-slide {
+    background-size: cover;
+    background-position: center;
+}
+
+.xsfc_s1 .gallery-top {
+    width: 100%;
+}
+
+.xsfc_s1 .gallery-thumbs {
+    height: auto;
+    box-sizing: border-box;
+    padding: 25px 0px 0px 0px;
+}
+
+.xsfc_s1 .gallery-thumbs .swiper-slide {
+    width: 187px;
+    height: 205px;
+}
+
+.xsfc_s1 .gallery-thumbs .swiper-slide-active {
+    opacity: 1;
+}
+
+.xsfc_s1 .swiper-slide span {
+    background: url(../images/18.png);
+    height: 75px;
+    position: absolute;
+    bottom: 0px;
+    width: 580px;
+    display: block;
+    text-align: left;
+    color: #fff;
+    padding: 8px 11px 8px 14px;
+}
+
+.xsfc_s1 .swiper-slide span h3 {
+    font-size: 20px;
+}
+
+.xsfc_s1 .swiper-slide span p {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: normal;
+}
+
+
+
+/*赛事进程*/
+.ssjc_s1 ul li{
+    height:50px;
+    border-bottom:1px dashed #E4E4E4;
+    background:url(../images/38.png) no-repeat left;
+    padding-left:30px;
+    line-height:50px;
+    font-size:18px;
+}
+.ssjc_s1 ul li a{
+    color:#333;
+}
+.ssjc_s1 ul li .fr{
+    color:#999;
+}
+
+.ssjc_s1_xq h3{
+    font-size:20px;
+    color:#333;
+}
+.ssjc_s1_xq h4{
+    font-size:18px;
+    color:#666666;
+    font-weight:normal;
+    margin-top:7px;
+}
+.ssjc_s1_xq p{
+    text-align:left;
+    font-size:18px;
+    color:#666666;
+    text-indent:2em;
+    line-height:30px;
+}
+.ssjc_s1_xq img{
+    margin-top:10px;
+}
+.ssjc_s2_xq p{
+   color:#666666;
+   font-size:18px;
+   margin-bottom:10px;
+}
+.ssjc_s2_xq a{
+    color:#666;
+}
+.ssjc_s2_xq a.on{
+    color:#990000;
+}
+
+.fenxiang_02{
+   position: fixed;
+   bottom:-40px;
+   height:200px;
+   display: none;
+   color:#000;
+   right:0px;
+   z-index: 9999;
+}
+.fenxiang_02 span{
+   margin-right:5px;
+}

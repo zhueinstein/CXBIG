@@ -1,0 +1,40 @@
+<!-- 赛事介绍内容 顾问评委-->
+<div class="container auto main_ssjs_02 fix">
+    <div class="fl tc">
+        <h4>赛事简介</h4>
+        <ul>
+            <li><a href="#match-introduction">赛事介绍</a></li>
+            <li><a href="#!organization">组织机构</a></li>
+            <li ><a href="#!org-group">组委会成员</a></li>
+            <li ><a href="#!guests">委员及嘉宾</a></li>
+            <li class="on"><a href="#!guwenpw" >顾问及评委</a></li>
+            <li ><a href="#!media" >支持媒体</a></li>
+            <li ><a href="#!communication" >联系方式</a></li>
+        </ul>
+    </div>
+    <div class="fr">
+        <div class="title fix">
+            <a href="#!shouye">首页</a> &gt; <a href="#!match-introduction">赛事简介</a> &gt; <a href="#!guwenpw" class="on">顾问及评委</a>
+        </div>
+
+        <div class="bottom fix main_zzhcy_02" ng-controller="guwenpwCtrl">
+            <ul class="fr fix">
+                <li ng-repeat="pw in pws">
+                    <a href="{{ pw.url }}" ng-mouseover="onAbove(pw)" ng-mouseout="leave(pw)">
+                        <div class="pic">
+                            <img src="{{ pw.pic }}" >
+                            <span>{{ pw.title }}</span>
+                        </div>
+                        <div class="pic_yc tc" ng-show="pw.shows">
+                            <img src="../resources/images/zwh-03.png" alt="">
+                            <p style="width:158px;">{{ pw.detail }}</p>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="fenye tc fix">
+        </div>
+
+    </div>
+</div>

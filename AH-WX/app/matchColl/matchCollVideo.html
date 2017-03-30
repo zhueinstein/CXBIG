@@ -1,0 +1,20 @@
+<top-of-the-view></top-of-the-view>
+
+
+<div class="container auto spjj_s2 fix mt20 ml20">
+    <div style="display: inline;height: inherit;width: inherit;" ng-repeat="video in videos" >
+        <a href="#!video-detail?id={{video.id}}">
+            <img src="{{video.cover}}">
+            <p><img src="{{png25}}" alt="" width="291" height="218">
+            </p>
+            <span class="fl">{{video.title}}</span>
+            <span class="fr">2017-01-27</span>
+        </a>
+    </div>
+
+</div>
+
+<div class="container auto zcmt_s2 fix mt20 ml20 tc">
+    <a href="javascript:;">上一页</a>
+    <a href="javascript:;">下一页</a>
+</div>

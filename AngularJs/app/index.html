@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" ng-app="myApp" class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>中国影视歌曲歌手大赛安徽赛区</title>
+    <link rel="shortcut icon" href="./resources/images/logo.png">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/normalize.css">
+  <link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/main.css">
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="app.css">
+  <link rel="stylesheet" href="common.css">
+  <link rel="stylesheet" href="cssreset.css">
+  <script src="bower_components/html5-boilerplate/dist/js/vendor/modernizr-2.8.3.min.js"></script>
+  <script src="./jquery.js"></script>
+  <script src="./jquery.SuperSlide.2.1.js"></script>
+  <script type="text/javascript">
+      $(function() {
+          $('.nav>ul>li').hover(function() {
+              $(this).find('ul').stop(true, true).slideDown();
+          }, function() {
+              $(this).find('ul').stop(true, true).slideUp();
+          })
+          $('.main_zzhcy_02 ul li').hover(function(){
+              $(this).find('.pic span').hide();
+              $(this).find('.pic_yc').stop(true,true).fadeIn();
+          },function(){
+              $(this).find('.pic span').show();
+              $(this).find('.pic_yc').stop(true,true).fadeOut();
+          })
+
+
+
+          $('#slideBoxs').hover(function() {
+              $('.slideBoxs .prev,.slideBoxs .next').show();
+          }, function() {
+              $('.slideBoxs .prev,.slideBoxs .next').hide();
+          })
+
+          jQuery(".slideBoxs").slide({
+              mainCell: ".bd ul",
+              effect: "left",
+              autoPlay: true
+          });
+
+          jQuery(".picScroll-left").slide({
+              titCell: ".hd ul",
+              mainCell: ".bd ul",
+              autoPage: true,
+              effect: "left",
+              autoPlay: true,
+              vis: 4,
+              trigger: "click"
+          });
+
+      })
+
+
+
+
+  </script>
+</head>
+<body>
+<div class="logo">
+  <img src="./resources/images/logo.png">
+</div>
+<!-- 导航菜单 -->
+<div class="nav fix">
+  <ul class="container auto tc">
+      <li><a href="#!shouye">首页</a></li>
+      <li class="on">
+           <a href="#!match-introduction">赛事简介</a>
+          <ul>
+            <li><a href="#!match-introduction">赛事介绍</a></li>
+            <li><a href="#!organization">组织机构</a></li>
+            <li><a href="#!org-group">组委会成员</a></li>
+            <li><a href="#!guests">委员及嘉宾</a></li>
+            <li><a href="#!guwenpw">顾问及评委</a></li>
+            <li><a href="#!media">支持媒体</a></li>
+            <li><a href="#!communication">联系方式</a></li>
+          </ul>
+      </li>
+   <!-- <li >
+          <a href="#!match-info-coll">赛事集锦</a>
+          <ul>
+            <li><a href="#!match-info-coll">精彩集锦</a></li>
+            <li><a href="#!match-video-coll">精彩视频</a></li>
+          </ul>
+    </li>-->
+    <li >
+        <a href="#!competitor">选手风采</a>
+        <ul>
+          <li><a href="#!competitor">选手风采</a></li>
+        </ul>
+    </li>
+    <li >
+      <a href="#!match-news">最新资讯</a>
+      <ul>
+        <li><a href="#!match-news">赛事新闻</a></li>
+        <!--<li><a href="#!match-notice">公告</a></li>-->
+      </ul>
+    </li>
+    <li >
+      <a href="#!support-enterprises">支持企业</a>
+    </li>
+    <li >
+    <a href="#!sign-up">报名方式</a>
+  </li>
+  </ul>
+</div>
+<!-- bannar -->
+<div id="slideBoxs" class="slideBoxs fix">
+  <div class="bd">
+    <ul>
+        <li style="background:url('./resources/images/toggle-1.jpg') no-repeat center center">
+          <a href=""></a>
+        </li><li style="background:url('./resources/images/toggle-2.png') no-repeat center center">
+      <a href=""></a>
+        </li><li style="background:url('./resources/images/toggle-3.png') no-repeat center center">
+          <a href=""></a>
+        </li>
+    </ul>
+  </div>
+  <!-- 左右箭头 -->
+  <a class="prev" href="javascript:void(0)"></a>
+  <a class="next" href="javascript:void(0)"></a>
+</div>
+  <!--[if lt IE 12]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+  <![endif]-->
+
+  <div ng-view></div>
+
+<!-- footer -->
+<div class="footer fix">
+  <div class="container auto fix">
+    <div class="footer_02 fl fix">
+      <div class="footer_03 fix fl">
+        <strong>主办单位：</strong>
+        <div class="fr">
+                        <span>
+    						<p>国家新闻出版广电总局华讯网</p>
+                                <p>中国电影评论学会</p>
+                                <p>中国电影报社</p>
+                                <p> 中国台港电影研究会</p>
+                                <p>亚洲影视联合会</p>
+                                </span>
+          <span><p>北京地中金文化传媒有限公司</p>
+                                <p><strong>协办单位：</strong></p>
+                                <p>北京朝阳区政府呼家楼街道办事处</p>
+                                <p><strong>承办单位：</strong></p>
+                                <p>北京地中金文化传媒有限公司</p>
+                                                        </span>
+        </div>
+      </div>
+      <div class="footer_04 fr fix">
+        <p><strong>电话：</strong><a href="">010-56217563  &nbsp;<strong>监督电话：</strong>13552169359 </a></p><p><strong>传真：</strong><a href="">010-65187349</a></p><p><strong>地址：</strong><a href="">北京东城区建国门内大街18号恒基中心一座13层</a></p><p><strong>邮箱：</strong><a href="">chinaygs@163.com</a></p><p><strong>首席法律顾问：</strong><a href="">北京商伴律师事务所  张斌</a></p>				</div>
+    </div>
+    <div class="footer_05 fr">
+      <img src="./resources/images/wxewm.jpg" style="width: 100px;height: 120px;">
+
+    </div>
+  </div>
+</div>
+
+<div class="copyright tc">所有权：“中国影视歌曲歌手大赛”组织委员会唯一授权-官方网站京ICP备16061778号</div>
+      <script src="bower_components/angular/angular.js"></script>
+      <script src="bower_components/angular-route/angular-route.js"></script>
+      <script src="app.js"></script>
+      <script src="view1/view1.js"></script>
+      <script src="view2/view2.js"></script>
+      <script src="components/version/version.js"></script>
+      <script src="components/version/version-directive.js"></script>
+      <script src="components/version/interpolate-filter.js"></script>
+      <script src="shouye/shouye.js"></script>
+      <script src="match-introduction/match-introduction.js"></script>
+      <script src="organization/organization.js"></script>
+      <script src="org-group/org-group.js"></script>
+      <script src="guests/guests.js"></script>
+      <script src="guwenpw/guwenpw.js"></script>
+      <script src="media/media.js"></script>
+      <script src="communication/communication.js"></script>
+      <script src="match-info-coll/match-info-coll.js"></script>
+      <script src="match-video-coll/match-video-coll.js"></script>
+      <script src="competitor/competitor.js"></script>
+      <script src="match-news/match-news.js"></script>
+      <script src="match-notice/match-notice.js"></script>
+      <script src="support-enterprises/support-enterprises.js"></script>
+      <script src="sign-up/sign-up.js"></script>
+</body>
+</html>
