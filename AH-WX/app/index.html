@@ -18,10 +18,11 @@
     <link rel="stylesheet" href="app.css">
     <link rel="stylesheet" href="./resources/css/common.css"/>
     <link rel="stylesheet" href="./resources/css/cssreset.css"/>
-    <link rel="stylesheet" href="./resources/css/animate.min.css"/>
     <link rel="stylesheet" href="./resources/css/main.css"/>
     <link rel="stylesheet" href="./resources/css/swiper.min.css"/>
-    <script src="bower_components/html5-boilerplate/dist/js/vendor/modernizr-2.8.3.min.js"></script>
+    <!--
+        <script src="bower_components/html5-boilerplate/dist/js/vendor/modernizr-2.8.3.min.js"></script>
+    -->
 
 
 </head>
@@ -41,7 +42,7 @@
         <a href="javascript:void(0)" class="a_2">
             <img src="./resources/images/anniu.png" alt=""/>
         </a>
-        <ul class="nav_1">
+        <ul class="nav_1" style="background: lightgray;">
             <li><a href="#!home" class="a_1">首页</a></li>
             <li><a href="#!matchIntroduction" class="a_1">赛事简介</a>
             </li>
@@ -74,110 +75,126 @@
         <div class="ban-bom mt40">
             地址：安徽省合肥市包河区中海滨湖公馆A03栋1105室 <br/>“中国影视歌曲歌手大赛”安徽赛区组织委员会唯一官方网站
         </div>
-        <div class="auto container">
-            <div class="fenxiang_02"><!-- JiaThis Button BEGIN -->
-                <div class="jiathis_style_32x32">
-                    <a class="jiathis_button_qzone"></a>
-                    <a class="jiathis_button_tsina"></a>
-                    <a class="jiathis_button_tqq"></a>
-                    <a class="jiathis_button_weixin"></a>
-                </div>
-                <script type="text/javascript" src="jia.js" tppabs="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
-                <!-- JiaThis Button END -->
+
+    </div>
+    <div class="auto container">
+        <div class="fenxiang_02">
+            <!-- JiaThis Button BEGIN -->
+            <div class="jiathis_style_32x32">
+                <a class="jiathis_button_qzone"></a>
+                <a class="jiathis_button_tsina"></a>
+                <a class="jiathis_button_tqq"></a>
+                <a class="jiathis_button_renren"></a>
+                <a class="jiathis_button_kaixin001"></a>
+                <a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jiathis_separator jtico jtico_jiathis" target="_blank"></a>
             </div>
-        </div>
-        <div class="footer fix tc">
-            <ul>
-                <li class="on">
-                    <a href="#!home" tppabs="http://www.china-ygs.com/">
-                        <img src="./resources/images/10.png">
-                        <span>首页</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="tel:15210976357">
-                        <img src="./resources/images/11.png">
-                        <span>电话</span>
-                    </a>
-                </li>
-                <li class="fenxiang">
-                    <a href="javascript:;">
-                        <img src="./resources/images/12.png">
-                        <span>分享</span>
-                    </a>
-                </li>
-            </ul>
+            <script type="text/javascript" >
+                var jiathis_config={
+                    siteNum:6,
+                    sm:"tsina,weixin,qzone,tqq,cqq,tianya",
+                    summary:"",
+                    boldNum:3,
+                    shortUrl:true,
+                    hideMore:true
+                }
+            </script>
+            <script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
+            <!-- JiaThis Button END -->
+
         </div>
     </div>
-    <script src="./resources/js/jquery.js"></script>
-    <!-- 点击列表 -->
-    <script src="./resources/js/pub.js"></script>
-    <script src="./resources/js/jia.js"></script>
-    <!-- banner -->
-    <script src="./resources/js/swiper.min.js"></script>
-    <script type="text/javascript">
-        var swiper = new Swiper('.banner .swiper-container', {
-            pagination: '.banner .swiper-pagination',
-            paginationClickable: true,
-            autoplay: 5000,
-            paginationBulletRender: function (index, className) {
-                return '<span class="' + className + '">' + '</span>';
-            }
-        });
-    </script>
-    <script type="text/javascript">
-        var appendNumber = 4;
-        var prependNumber = 1;
-        var swiper = new Swiper('.index_s3 .swiper-container', {
-            pagination: '.index_s3 .swiper-pagination',
-            nextButton: '.index_s3 .swiper-button-next',
-            prevButton: '.index_s3 .swiper-button-prev',
-            slidesPerView: 3,
-            //centeredSlides: true,
-            //paginationClickable: true,
-            spaceBetween: -56,
-        });
+    <div class="footer fix tc">
+        <ul>
+            <li class="on">
+                <a href="#!home">
+                    <img src="./resources/images/10.png">
+                    <span>首页</span>
+                </a>
+            </li>
+            <li>
+                <a href="tel:15210976357">
+                    <img src="./resources/images/11.png">
+                    <span>电话</span>
+                </a>
+            </li>
+            <li class="fenxiang">
+                <a href="javascript:;">
+                    <img src="./resources/images/12.png">
+                    <span>分享</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+<script src="./resources/js/jquery.js"></script>
+<!-- 点击列表 -->
+<script src="./resources/js/pub.js"></script>
+<script src="./resources/js/jia.js"></script>
+<!-- banner -->
+<script src="./resources/js/swiper.min.js"></script>
+<script type="text/javascript">
+    var swiper = new Swiper('.banner .swiper-container', {
+        pagination: '.banner .swiper-pagination',
+        paginationClickable: true,
+        autoplay: 5000,
+        paginationBulletRender: function (index, className) {
+            return '<span class="' + className + '">' + '</span>';
+        }
+    });
+</script>
+<script type="text/javascript">
+    var appendNumber = 4;
+    var prependNumber = 1;
+    var swiper = new Swiper('.index_s3 .swiper-container', {
+        pagination: '.index_s3 .swiper-pagination',
+        nextButton: '.index_s3 .swiper-button-next',
+        prevButton: '.index_s3 .swiper-button-prev',
+        slidesPerView: 3,
+        //centeredSlides: true,
+        //paginationClickable: true,
+        spaceBetween: -56,
+    });
 
-        document.querySelector('.prepend-2-slides').addEventListener('click', function (e) {
-            e.preventDefault();
-            swiper.prependSlide([
-                '<div class="swiper-slide">Slide ' + (--prependNumber) + '</div>',
-                '<div class="swiper-slide">Slide ' + (--prependNumber) + '</div>'
-            ]);
-        });
+    document.querySelector('.prepend-2-slides').addEventListener('click', function (e) {
+        e.preventDefault();
+        swiper.prependSlide([
+            '<div class="swiper-slide">Slide ' + (--prependNumber) + '</div>',
+            '<div class="swiper-slide">Slide ' + (--prependNumber) + '</div>'
+        ]);
+    });
 
-        document.querySelector('.prepend-slide').addEventListener('click', function (e) {
-            e.preventDefault();
-            swiper.prependSlide('<div class="swiper-slide">Slide ' + (--prependNumber) + '</div>');
-        });
+    document.querySelector('.prepend-slide').addEventListener('click', function (e) {
+        e.preventDefault();
+        swiper.prependSlide('<div class="swiper-slide">Slide ' + (--prependNumber) + '</div>');
+    });
 
-        document.querySelector('.append-slide').addEventListener('click', function (e) {
-            e.preventDefault();
-            swiper.appendSlide('<div class="swiper-slide">Slide ' + (++appendNumber) + '</div>');
-        });
+    document.querySelector('.append-slide').addEventListener('click', function (e) {
+        e.preventDefault();
+        swiper.appendSlide('<div class="swiper-slide">Slide ' + (++appendNumber) + '</div>');
+    });
 
-        document.querySelector('.append-2-slides').addEventListener('click', function (e) {
-            e.preventDefault();
-            swiper.appendSlide([
-                '<div class="swiper-slide">Slide ' + (++appendNumber) + '</div>',
-                '<div class="swiper-slide">Slide ' + (++appendNumber) + '</div>'
-            ]);
-        });
-    </script>
-    <script src="bower_components/angular/angular.js"></script>
-    <script src="bower_components/angular-route/angular-route.js"></script>
-    <script src="app.js"></script>
-    <script src="view1/view1.js"></script>
-    <script src="view2/view2.js"></script>
-    <script src="home/home.js"></script>
-    <script src="matchIntroduction/matchIntroduction.js"></script>
-    <script src="matchColl/matchColl.js"></script>
-    <script src="competitor/competitor.js"></script>
-    <script src="news/news.js"></script>
-    <script src="supportEnterprise/supportEnterprise.js"></script>
-    <script src="apply/apply.js"></script>
-    <script src="components/version/version.js"></script>
-    <script src="components/version/version-directive.js"></script>
-    <script src="components/version/interpolate-filter.js"></script>
+    document.querySelector('.append-2-slides').addEventListener('click', function (e) {
+        e.preventDefault();
+        swiper.appendSlide([
+            '<div class="swiper-slide">Slide ' + (++appendNumber) + '</div>',
+            '<div class="swiper-slide">Slide ' + (++appendNumber) + '</div>'
+        ]);
+    });
+</script>
+<script src="bower_components/angular/angular.js"></script>
+<script src="bower_components/angular-route/angular-route.js"></script>
+<script src="app.js"></script>
+<script src="view1/view1.js"></script>
+<script src="view2/view2.js"></script>
+<script src="home/home.js"></script>
+<script src="matchIntroduction/matchIntroduction.js"></script>
+<script src="matchColl/matchColl.js"></script>
+<script src="competitor/competitor.js"></script>
+<script src="news/news.js"></script>
+<script src="supportEnterprise/supportEnterprise.js"></script>
+<script src="apply/apply.js"></script>
+<script src="components/version/version.js"></script>
+<script src="components/version/version-directive.js"></script>
+<script src="components/version/interpolate-filter.js"></script>
 </body>
 </html>

@@ -9,6 +9,7 @@ $(function(){
 		$(this).find(".aa").addClass("a_3");
 	});*/
 	$(".a_2 img").click(function(){
+		console.log(1111)
 		var z=$(".nav_1").css("display");
 		if(z == "none"){
 			$(".nav_1").slideDown();
@@ -16,6 +17,11 @@ $(function(){
 			$(".nav_1").slideUp();
 		}
 	});
+	$(".nav_1 .a_1").click(function () {
+		console.log("111")
+        $(".nav_1").slideUp();
+    });
+
 	$(document).click(function(e){
 	 e = window.event || e;
 	 obj = $(e.srcElement || e.target);
