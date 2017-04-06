@@ -20,7 +20,8 @@ const  news = angular.module('myApp.news', ['ngRoute']);
     }]);
 news.directive("topOfTheViewOne", function () {
         return{
-            template:'<div class="ssjj_s1 tc mt40 fix pl15"><a href="#!news" class="on">赛事新闻</a><a href="#!notices">公告</a></div><div class="height"></div>'
+            template:'<div class="ssjj_s1 tc mt40 fix pl15"><a href="#!news" class="on">赛事新闻</a><a' +
+            ' href="#!notices">公告</a></div><div class="height"><a id="top"></a></div>'
         }
     })
 
