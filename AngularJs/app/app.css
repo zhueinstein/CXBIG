@@ -92,14 +92,14 @@ ul,ol{
 
 /*--赛事介绍--*/
 .child_pages{height:394px;margin-top:158px;*margin-top:158px;}
-.main_ssjs_02 .fl{background:url('./resources/images/ss-05.png') no-repeat;width:204px; position:relative;height:506px;}
+.main_ssjs_02 .fl{background:url('./resources/images/ss-05.png') no-repeat;width:175px; position:relative;height:506px;}
 .main_ssjs_02 .fl h4{background:url('./resources/images/ss-06.png') no-repeat;height:41px; font-size:22px; line-height:41px;color:#fff;font-weight:normal;margin-top:50px;}
 .main_ssjs_02 .fl ul li{ height:43px; line-height:43px;background:url('./resources/images/ss-07.png') no-repeat bottom;}
 .main_ssjs_02 .fl ul li a{font-size:14px;color:#333;background:url('./resources/images/ss-09.png') no-repeat center; display:block;}
 .main_ssjs_02 .fl ul li.on a{color:#d61516;}
 .main_ssjs_02 .fl ul li:hover a{color:#d61516;}
 .main_ssjs_02 .fl ul li span{background:url('./resources/images/ss-09.png') no-repeat;text-align:center;width:86px;height:4px;}
-.main_ssjs_02 .fr{margin-top:-200px;}
+.main_ssjs_02 .fr{margin-top:0px;}
 .main_ssjs_02 {background:url('./resources/images/ss-10.png') no-repeat right;}
 .main_ssjs_02 .title{height:48px;line-height:48px;border-bottom:1px solid #CCCCCC;margin:0px 42px 0px 42px;width:910px;text-align:right;}
 .main_ssjs_02 .title a{color:#666666;margin-right:15px;margin-left:15px;}

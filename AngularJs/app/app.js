@@ -52,10 +52,6 @@ config(['$locationProvider', '$stateProvider','$urlRouterProvider', function($lo
             },
            'matchIntroductions@matchIntroduction': {
                templateUrl: 'match-introduction/match-introduction.html',
-               /*controller: function ($scope, $state, $location, $stateParams) {
-                   console.log($stateParams.cx)
-                   $state.go($stateParams.cx);
-               }*/
            }
         }
     }).state('match-introduction',{
@@ -67,8 +63,6 @@ config(['$locationProvider', '$stateProvider','$urlRouterProvider', function($lo
             },
             'matchIntroductions@match-introduction': {
                 templateUrl: 'match-introduction/match-introduction.html',
-               /* controller: 'match-introductionCtrl', //也可以写成HomeController as home
-                controllerAs: 'match-introduction'*/
             }
         }
     }).state('organization',{
@@ -80,11 +74,6 @@ config(['$locationProvider', '$stateProvider','$urlRouterProvider', function($lo
             },
             'matchIntroductions@organization': {
                 templateUrl: 'organization/organization.html',
-               /* controller: 'match-introductionCtrl', //也可以写成HomeController as home
-                controllerAs: 'match-introduction'*/
-              /* controller:function ($stateParams) {
-                   console.log($stateParams)
-               }*/
             }
         }
     }).state('org-group',{
@@ -96,11 +85,6 @@ config(['$locationProvider', '$stateProvider','$urlRouterProvider', function($lo
             },
             'matchIntroductions@org-group': {
                 templateUrl: 'org-group/org-group.html',
-               /* controller: 'match-introductionCtrl', //也可以写成HomeController as home
-                controllerAs: 'match-introduction'*/
-              /* controller:function ($stateParams) {
-                   console.log($stateParams)
-               }*/
             }
         }
     }).state('guests',{
@@ -112,11 +96,6 @@ config(['$locationProvider', '$stateProvider','$urlRouterProvider', function($lo
             },
             'matchIntroductions@guests': {
                 templateUrl: 'guests/guests.html',
-               /* controller: 'match-introductionCtrl', //也可以写成HomeController as home
-                controllerAs: 'match-introduction'*/
-              /* controller:function ($stateParams) {
-                   console.log($stateParams)
-               }*/
             }
         }
     }).state('guwenpw',{
@@ -128,11 +107,6 @@ config(['$locationProvider', '$stateProvider','$urlRouterProvider', function($lo
             },
             'matchIntroductions@guwenpw': {
                 templateUrl: 'guwenpw/guwenpw.html',
-               /* controller: 'match-introductionCtrl', //也可以写成HomeController as home
-                controllerAs: 'match-introduction'*/
-              /* controller:function ($stateParams) {
-                   console.log($stateParams)
-               }*/
             }
         }
     }).state('media',{
@@ -144,11 +118,6 @@ config(['$locationProvider', '$stateProvider','$urlRouterProvider', function($lo
             },
             'matchIntroductions@media': {
                 templateUrl: 'media/media.html',
-               /* controller: 'match-introductionCtrl', //也可以写成HomeController as home
-                controllerAs: 'match-introduction'*/
-              /* controller:function ($stateParams) {
-                   console.log($stateParams)
-               }*/
             }
         }
     }).state('communication',{
@@ -160,11 +129,23 @@ config(['$locationProvider', '$stateProvider','$urlRouterProvider', function($lo
             },
             'matchIntroductions@communication': {
                 templateUrl: 'communication/communication.html',
-               /* controller: 'match-introductionCtrl', //也可以写成HomeController as home
-                controllerAs: 'match-introduction'*/
-              /* controller:function ($stateParams) {
-                   console.log($stateParams)
-               }*/
+
+            }
+        }
+    }).state('competitor',{
+        url: '/competitor',
+        views: {
+            'index': {
+                templateUrl: "competitor/competitor.html",
+                controller: 'competitorCtrl',
+            }
+        }
+    }).state('match-news',{
+        url: '/match-news',
+        views: {
+            'index': {
+                templateUrl: "match-news/match-news.html",
+                controller: 'match-newsCtrl',
             }
         }
     })
