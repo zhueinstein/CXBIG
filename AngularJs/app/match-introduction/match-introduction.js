@@ -9,6 +9,7 @@ angular.module('myApp.match-introduction', ['ngRoute'])
   });
 }])
 
-.controller('match-introductionCtrl', [function() {
-
-}]);
+.controller('match-introductionCtrl', function ($scope, $state, $location, $stateParams) {
+   /* console.log($stateParams.cx)
+    $state.go($stateParams.cx);*/
+});

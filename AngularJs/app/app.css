@@ -11,7 +11,7 @@ ul,ol{
 .fix { *zoom:1; }
 .fix:after { content:" "; display:block; height:0; clear:both; visibility:hidden; font-size:0;}
 
-.logo{background:url("./resources/images/in-17.png") no-repeat;height:108px;text-align:center;background-size: 100%;width: 100% !important;}
+.logo{background:url("./resources/images/in-17.png") repeat-y;height:108px;text-align:center;background-size: 100%;width: 100% !important;}
 
 /*导航菜单*/
 .nav{background:red;height:69px;position:relative;top:0px;z-index:1;margin-top: -10px;}
@@ -46,7 +46,7 @@ ul,ol{
 .main_ssjj p{font-size:14px;color:#333; line-height:30px;}
 
 /*--赛事进程--*/
-.ssjc_02{border-bottom:1px dashed #E5E5E5;margin-bottom:38px;}
+.ssjc_02 {border-bottom:1px dashed #E5E5E5;margin-bottom:38px;}
 .ssjc_02 a{color:#333333;}
 .ssjc_02 img{width:223px; height:131px;}
 .ssjc_02 span{text-align:left; display:block; width:671px; height:158px;}
@@ -99,8 +99,8 @@ ul,ol{
 .main_ssjs_02 .fl ul li.on a{color:#d61516;}
 .main_ssjs_02 .fl ul li:hover a{color:#d61516;}
 .main_ssjs_02 .fl ul li span{background:url('./resources/images/ss-09.png') no-repeat;text-align:center;width:86px;height:4px;}
-.main_ssjs_02>.fr{margin-top:-500px;}
-.main_ssjs_02{background:url('./resources/images/ss-10.png') no-repeat right;}
+.main_ssjs_02 .fr{margin-top:-200px;}
+.main_ssjs_02 {background:url('./resources/images/ss-10.png') no-repeat right;}
 .main_ssjs_02 .title{height:48px;line-height:48px;border-bottom:1px solid #CCCCCC;margin:0px 42px 0px 42px;width:910px;text-align:right;}
 .main_ssjs_02 .title a{color:#666666;margin-right:15px;margin-left:15px;}
 .main_ssjs_02 .title a.on{color:#333333;}

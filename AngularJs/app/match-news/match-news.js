@@ -101,11 +101,11 @@ matchNews.config(['$routeProvider', function($routeProvider) {
 matchNews.directive("leftShowDirective", function () {
     return{
         template:'  <div class="fl tc" ><h4>最新资讯</h4> <ul>   <li class="on"><a' +
-        ' href="#!match-news">赛事新闻</a></li></ul></div>'
+        ' href="#/match-news">赛事新闻</a></li></ul></div>'
     };
 })
 matchNews.directive("topShowDirective", function () {
     return{
-        template:' <div class="title fix"> <a href="#!shouye">首页</a> &gt; <a href="#!match-news">最新资讯</a> &gt; <a href="#!match-news" class="on">赛事新闻</a> </div>'
+        template:' <div class="title fix"> <a href="#/home">首页</a> &gt; <a href="#/match-news">最新资讯</a> &gt; <a href="#/match-news" class="on">赛事新闻</a> </div>'
     };
 })

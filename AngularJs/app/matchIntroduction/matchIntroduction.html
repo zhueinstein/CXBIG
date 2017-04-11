@@ -1,0 +1,18 @@
+<!-- 赛事介绍内容 -->
+<div class="container auto main_ssjs_02 fix" ng-controller="MatchIntroductionCtrl">
+    <div class="fl tc">
+        <h4>赛事简介</h4>
+        <ul>
+            <li class="{{introduction}}"><a ui-sref="match-introduction({introduction:'on'})">赛事介绍</a></li>
+            <li class="{{organization}}" ><a ui-sref="organization({organization:'on'})">组织机构</a></li>
+            <li class="{{group}}"><a ui-sref="org-group({group:'on'})">组委会成员</a></li>
+            <li class="{{guests}}"><a ui-sref="guests({guests:'on'})">委员及嘉宾</a></li>
+            <li class="{{guwenpw}}"><a ui-sref="guwenpw({guwenpw:'on'})">顾问及评委</a></li>
+            <li class="{{media}}"><a ui-sref="media({media:'on'})">支持媒体</a></li>
+            <li class="{{communication}}"><a ui-sref="communication({communication:'on'})">联系方式</a></li>
+        </ul>
+    </div>
+
+        <div ui-view="matchIntroductions"></div>
+
+</div>

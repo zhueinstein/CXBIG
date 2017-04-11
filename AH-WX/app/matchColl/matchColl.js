@@ -27,6 +27,6 @@ const  app = angular.module('myApp.matchColl', ['ngRoute']);
     });
     app.directive("topOfTheView", function () {
         return {
-            template: '<div class="ssjj_s1 tc mt40 fix pl15"><a href="#!matchColl" class="on">精彩集锦</a><a    href="#!matchCollVideo">精彩视频</a></div><div class="height"></div>'
+            template: '<div class="ssjj_s1 tc mt40 fix pl15"><a href="#/matchColl" class="on">精彩集锦</a><a    href="#/matchCollVideo">精彩视频</a></div><div class="height"></div>'
         };
     })
