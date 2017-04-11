@@ -15,7 +15,7 @@ ul,ol{
 
 /*导航菜单*/
 .nav{background:red;height:69px;position:relative;top:0px;z-index:1;margin-top: -10px;}
-.nav ul {margin-left: 25%;}
+.nav ul {text-align: center;}
 .nav>ul>li{ float:left;font-size:22px;font-family:宋体; line-height:63px;width:149px;}
 .nav>ul>li a{color:white;}
 .nav>ul>li.on{width:154px;}
@@ -92,7 +92,7 @@ ul,ol{
 
 /*--赛事介绍--*/
 .child_pages{height:394px;margin-top:158px;*margin-top:158px;}
-.main_ssjs_02 .fl{background:url('./resources/images/ss-05.png') no-repeat;width:175px; position:relative;height:506px;}
+.main_ssjs_02 .fl{background:url('./resources/images/ss-05.png') no-repeat;width:175px; position:relative;height:5px;}
 .main_ssjs_02 .fl h4{background:url('./resources/images/ss-06.png') no-repeat;height:41px; font-size:22px; line-height:41px;color:#fff;font-weight:normal;margin-top:50px;}
 .main_ssjs_02 .fl ul li{ height:43px; line-height:43px;background:url('./resources/images/ss-07.png') no-repeat bottom;}
 .main_ssjs_02 .fl ul li a{font-size:14px;color:#333;background:url('./resources/images/ss-09.png') no-repeat center; display:block;}

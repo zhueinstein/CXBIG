@@ -3,7 +3,6 @@
     <div class="fl tc">
         <h4>赛事集锦</h4>
         <ul>
-            <li><a href="#/match-info-coll">精彩集锦</a></li>
             <li class="on"><a href="#/match-video-coll">精彩视频</a></li>
         </ul>
     </div>
@@ -15,29 +14,27 @@
 
         <div class="bottom fix main_spjj_02">
             <ul class="fr fix">
-                <li>
-                    <a href="354.html" tppabs="http://www.china-ygs.com/Index/show/catid/25/id/354.html">
+                <li ng-repeat="video in videos">
+                    <a ui-sref=".match-video-play({url:{{video}}})">
                         <div class="pic fix">
-                            <img src="588ed2e514523.jpg"
-                                 tppabs="http://www.china-ygs.com/Uploads/Content/2017-01-30/588ed2e514523.jpg">
+                            <img src="{{video.img}}">
                         </div>
                         <div class="pic_yc tc fix">
-                            <img src="sp-03.png" tppabs="http://www.china-ygs.com/Public/Home/images/sp-03.png" alt="">
+                            <img src="{{sp_03}}"  alt="">
                         </div>
                         <div class="titles fix">
-                            <div class="fl">首届中国影视歌曲歌手大赛组委会向...</div>
-                            <div class="fr">2017-01-27</div>
+                            <div class="fl">{{video.title}}</div>
+                            <div class="fr">{{video.date}}</div>
                         </div>
                     </a>
                 </li>
-                <li>
-                    <a href="351.html" tppabs="http://www.china-ygs.com/Index/show/catid/25/id/351.html">
+               <!-- <li>
+                    <a href="351.html">
                         <div class="pic fix">
-                            <img src="588ae4b560bbf.jpg"
-                                 tppabs="http://www.china-ygs.com/Uploads/Content/2017-01-27/588ae4b560bbf.jpg">
+                            <img src="../resources/images/news/588ae4b560bbf.jpg">
                         </div>
                         <div class="pic_yc tc fix">
-                            <img src="sp-03.png" tppabs="http://www.china-ygs.com/Public/Home/images/sp-03.png" alt="">
+                            <img src="../resources/images/sp-03.png" alt="">
                         </div>
                         <div class="titles fix">
                             <div class="fl"> 中国影视歌曲歌手...</div>
@@ -46,13 +43,12 @@
                     </a>
                 </li>
                 <li>
-                    <a href="263.html" tppabs="http://www.china-ygs.com/Index/show/catid/25/id/263.html">
+                    <a href="263.html">
                         <div class="pic fix">
-                            <img src="588b0e9ae40fd.jpg"
-                                 tppabs="http://www.china-ygs.com/Uploads/Content/2017-01-27/588b0e9ae40fd.jpg">
+                            <img src="../resources/images/news/588b0e9ae40fd.jpg">
                         </div>
                         <div class="pic_yc tc fix">
-                            <img src="sp-03.png" tppabs="http://www.china-ygs.com/Public/Home/images/sp-03.png" alt="">
+                            <img src="../resources/images/sp-03.png"  alt="">
                         </div>
                         <div class="titles fix">
                             <div class="fl">北京赛区启动仪式</div>
@@ -61,13 +57,12 @@
                     </a>
                 </li>
                 <li>
-                    <a href="262.html" tppabs="http://www.china-ygs.com/Index/show/catid/25/id/262.html">
+                    <a href="262.html" >
                         <div class="pic fix">
-                            <img src="58579ee129751.jpg"
-                                 tppabs="http://www.china-ygs.com/Uploads/Content/2016-12-19/58579ee129751.jpg">
+                            <img src="../resources/images/news/58579ee129751.jpg">
                         </div>
                         <div class="pic_yc tc fix">
-                            <img src="sp-03.png" tppabs="http://www.china-ygs.com/Public/Home/images/sp-03.png" alt="">
+                            <img src="../resources/images/sp-03.png"  alt="">
                         </div>
                         <div class="titles fix">
                             <div class="fl">河北赛区启动仪式</div>
@@ -76,13 +71,12 @@
                     </a>
                 </li>
                 <li>
-                    <a href="353.html" tppabs="http://www.china-ygs.com/Index/show/catid/25/id/353.html">
+                    <a href="353.html">
                         <div class="pic fix">
-                            <img src="588aff6b4540d.jpg"
-                                 tppabs="http://www.china-ygs.com/Uploads/Content/2017-01-27/588aff6b4540d.jpg">
+                            <img src="../resources/images/news/588aff6b4540d.jpg">
                         </div>
                         <div class="pic_yc tc fix">
-                            <img src="sp-03.png" tppabs="http://www.china-ygs.com/Public/Home/images/sp-03.png" alt="">
+                            <img src="../resources/images/sp-03.png" alt="">
                         </div>
                         <div class="titles fix">
                             <div class="fl">吉林赛区庆“八一”专场音乐会</div>
@@ -91,13 +85,12 @@
                     </a>
                 </li>
                 <li>
-                    <a href="264.html" tppabs="http://www.china-ygs.com/Index/show/catid/25/id/264.html">
+                    <a href="264.html" >
                         <div class="pic fix">
-                            <img src="588b0013e3f6a.jpg"
-                                 tppabs="http://www.china-ygs.com/Uploads/Content/2017-01-27/588b0013e3f6a.jpg">
+                            <img src="../resources/images/news/588b0013e3f6a.jpg">
                         </div>
                         <div class="pic_yc tc fix">
-                            <img src="sp-03.png" tppabs="http://www.china-ygs.com/Public/Home/images/sp-03.png" alt="">
+                            <img src="../resources/images/sp-03.png"alt="">
                         </div>
                         <div class="titles fix">
                             <div class="fl">吉林赛区庆“八一”专场音乐会</div>
@@ -106,13 +99,12 @@
                     </a>
                 </li>
                 <li>
-                    <a href="352.html" tppabs="http://www.china-ygs.com/Index/show/catid/25/id/352.html">
+                    <a href="352.html" >
                         <div class="pic fix">
-                            <img src="588af2b035e9c.jpg"
-                                 tppabs="http://www.china-ygs.com/Uploads/Content/2017-01-27/588af2b035e9c.jpg">
+                            <img src="../resources/images/news/588af2b035e9c.jpg">
                         </div>
                         <div class="pic_yc tc fix">
-                            <img src="sp-03.png" tppabs="http://www.china-ygs.com/Public/Home/images/sp-03.png" alt="">
+                            <img src="../resources/images/sp-03.png"  alt="">
                         </div>
                         <div class="titles fix">
                             <div class="fl">黑龙江、吉林赛区新闻发布会</div>
@@ -121,13 +113,12 @@
                     </a>
                 </li>
                 <li>
-                    <a href="270.html" tppabs="http://www.china-ygs.com/Index/show/catid/25/id/270.html">
+                    <a href="270.html" >
                         <div class="pic fix">
-                            <img src="588b15b3adfff.jpg"
-                                 tppabs="http://www.china-ygs.com/Uploads/Content/2017-01-27/588b15b3adfff.jpg">
+                            <img src="../resources/images/news/588b15b3adfff.jpg">
                         </div>
                         <div class="pic_yc tc fix">
-                            <img src="sp-03.png" tppabs="http://www.china-ygs.com/Public/Home/images/sp-03.png" alt="">
+                            <img src="../resources/images/sp-03.png" alt="">
                         </div>
                         <div class="titles fix">
                             <div class="fl">中国影视歌曲歌手大赛</div>
@@ -136,13 +127,12 @@
                     </a>
                 </li>
                 <li>
-                    <a href="269.html" tppabs="http://www.china-ygs.com/Index/show/catid/25/id/269.html">
+                    <a href="269.html">
                         <div class="pic fix">
-                            <img src="588b0d6ae7bc9.jpg"
-                                 tppabs="http://www.china-ygs.com/Uploads/Content/2017-01-27/588b0d6ae7bc9.jpg">
+                            <img src="../resources/images/news/588b0d6ae7bc9.jpg">
                         </div>
                         <div class="pic_yc tc fix">
-                            <img src="sp-03.png" tppabs="http://www.china-ygs.com/Public/Home/images/sp-03.png" alt="">
+                            <img src="../resources/images/sp-03.png"  alt="">
                         </div>
                         <div class="titles fix">
                             <div class="fl">石家庄分赛区 首届“中国影视歌曲...</div>
@@ -151,20 +141,19 @@
                     </a>
                 </li>
                 <li>
-                    <a href="266.html" tppabs="http://www.china-ygs.com/Index/show/catid/25/id/266.html">
+                    <a href="266.html" >
                         <div class="pic fix">
-                            <img src="588b13b989260.jpg"
-                                 tppabs="http://www.china-ygs.com/Uploads/Content/2017-01-27/588b13b989260.jpg">
+                            <img src="../resources/images/news/588b13b989260.jpg">
                         </div>
                         <div class="pic_yc tc fix">
-                            <img src="sp-03.png" tppabs="http://www.china-ygs.com/Public/Home/images/sp-03.png" alt="">
+                            <img src="../resources/images/sp-03.png"  alt="">
                         </div>
                         <div class="titles fix">
                             <div class="fl">中国影视歌曲歌手大赛吉林赛区</div>
                             <div class="fr">2016-07-09</div>
                         </div>
                     </a>
-                </li>
+                </li>-->
             </ul>
         </div>
         <div class="fenye tc fix">

@@ -140,12 +140,20 @@ config(['$locationProvider', '$stateProvider','$urlRouterProvider', function($lo
                 controller: 'competitorCtrl',
             }
         }
-    }).state('match-news',{
-        url: '/match-news',
+    }).state('match-video-coll',{
+        url: '/match-video-coll',
         views: {
             'index': {
-                templateUrl: "match-news/match-news.html",
-                controller: 'match-newsCtrl',
+                templateUrl: "match-video-coll/match-video-coll.html",
+                controller: 'match-video-collCtrl',
+            }
+        }
+    }).state('match-video-coll.match-video-play',{
+        url: '/match-video-play/:url',
+        views: {
+            'index': {
+                templateUrl: "match-video-coll/match-video-play.html",
+                controller: 'match-video-collCtrl',
             }
         }
     })
