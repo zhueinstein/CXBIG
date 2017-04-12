@@ -15,7 +15,7 @@
         <div class="bottom fix main_spjj_02">
             <ul class="fr fix">
                 <li ng-repeat="video in videos">
-                    <a ui-sref=".match-video-play({url:{{video}}})">
+                    <a ng-click="to_play(video.id)">
                         <div class="pic fix">
                             <img src="{{video.img}}">
                         </div>

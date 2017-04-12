@@ -148,8 +148,8 @@ config(['$locationProvider', '$stateProvider','$urlRouterProvider', function($lo
                 controller: 'match-video-collCtrl',
             }
         }
-    }).state('match-video-coll.match-video-play',{
-        url: '/match-video-play/:url',
+    }).state('match-video-play',{
+        url: '/match-video-play/:id',
         views: {
             'index': {
                 templateUrl: "match-video-coll/match-video-play.html",
