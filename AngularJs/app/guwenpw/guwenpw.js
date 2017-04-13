@@ -55,4 +55,29 @@ angular.module('myApp.guwenpw', ['ui.router'])
 
           $state.go("pw_detail",{index:index});
       }
+
+      $scope.goOutWh = function (name) {
+            const param = name.substring(name.indexOf("-")+1)
+          if(param === "introduction"){
+                 $state.go(name, {introduction:'on'});
+          }
+           if(param === "organization"){
+                 $state.go(name, {organization:'on'});
+          }
+           if(param === "group"){
+                 $state.go(name, {group:'on'});
+          }
+           if(param === "guests"){
+                 $state.go(name, {guests:'on'});
+          }
+           if(param === "guwenpw"){
+                 $state.go(name, {guwenpw:'on'});
+          }
+           if(param === "media"){
+                 $state.go(name, {media:'on'});
+          }
+           if(param === "communication"){
+                 $state.go(name, {communication:'on'});
+          }
+      }
 });

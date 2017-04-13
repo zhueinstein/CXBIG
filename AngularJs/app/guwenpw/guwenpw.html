@@ -7,7 +7,7 @@
     <div class="bottom fix main_zzhcy_02" style="margin-top: 0px;" ng-controller="guwenpwCtrl">
         <ul class="fr fix">
             <li ng-repeat="pw in pws">
-                <a  ng-mouseover="onAbove(pw)" ng-mouseout="leave(pw)" ng-click="goDetail($index)">
+                <a  ng-mouseover="onAbove(pw)" ng-mouseout="leave(pw)" ng-click="goDetail($index)" class="pointer">
                     <div class="pic">
                         <img src="{{ pw.pic }}">
                         <span>{{ pw.title }}</span>
