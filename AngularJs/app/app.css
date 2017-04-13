@@ -104,7 +104,7 @@ ul,ol{
 .main_ssjs_02 .title{height:48px;line-height:48px;border-bottom:1px solid #CCCCCC;margin:0px 42px 0px 42px;width:910px;text-align:right;}
 .main_ssjs_02 .title a{color:#666666;margin-right:15px;margin-left:15px;}
 .main_ssjs_02 .title a.on{color:#333333;}
-.main_ssjs_02 .bottom{padding-top:21px; width:916px;margin:0px auto;position:relative;}
+.main_ssjs_02 .bottom{padding-top:21px; width:916px;margin:0px auto;position:relative;min-height: 370px;}
 .main_ssjs_02 .bottom h5{color:#333; font-size:16px;margin-bottom:30px;}
 .main_ssjs_02 .bottom>span>h6{ font-size:14px;color:#666666;}
 .main_ssjs_02 .bottom>span{width:910px; font-size:14px;color:#999999; line-height:25px; display:block; margin-bottom:22px;}
@@ -112,6 +112,10 @@ ul,ol{
 .main_ssjs_02 .bottom>span>.wd{width:698px;}
 .main_ssjs_02 .bottom>span>ul li i{font-style:normal;margin-left:23px;float:right; text-align:left;width:80px;*margin-top:-25px}
 .main_ssjs_02 .bottom>span>ul {float:left;margin-right:56px; min-width:159px; width:159px;}
+.main_ssjs_02 .pw_detail {min-height: 370px;text-align: center;}
+.main_ssjs_02 .pw_detail img {margin-top: 20px; width: 200px; height: 200px;}
+
+
 
 /*首页-活动资讯*/
 .main_hdzx{margin-top:51px;}

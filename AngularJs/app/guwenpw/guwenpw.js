@@ -1,19 +1,7 @@
 'use strict';
 
-angular.module('myApp.guwenpw', ['ngRoute'])
-
-.config(['$routeProvider', function($routeProvider) {
-  $routeProvider.when('/guwenpw', {
-    templateUrl: 'guwenpw/guwenpw.html',
-    controller: 'guwenpwCtrl'
-  });
-    $routeProvider.when('/pw_detail', {
-        templateUrl: 'guwenpw/pw_detail.html',
-        controller: 'guwenpwCtrl'
-    });
-}])
-
-.controller('guwenpwCtrl', function($scope,$http) {
+angular.module('myApp.guwenpw', ['ui.router'])
+.controller('guwenpwCtrl', function($scope,$http, $state,$stateParams) {
     $scope.pws = [
           {title:"郭兰英  国家一级演员 著名歌...",detail:"郭兰英  国家一级演员 著名歌唱家",pic:"../resources/images/pw/585d310a66cd9.jpg",url:"#/pw_detail",shows:false},
           {title:"邓玉华  国家一级演员  著名...",detail:"邓玉华  国家一级演员  著名歌唱家",pic:"../resources/images/pw/585516c707b80.jpg",url:"#/pw_detail",shows:false},
@@ -58,5 +46,13 @@ angular.module('myApp.guwenpw', ['ngRoute'])
       }
       $scope.leave = function (pw) {
           pw.shows = false;
+      }
+    if($stateParams.index){
+        $scope.detailTitle = $scope.pws[$stateParams.index].detail;
+        $scope.detailPic = $scope.pws[$stateParams.index].pic;
+    }
+      $scope.goDetail = function (index) {
+
+          $state.go("pw_detail",{index:index});
       }
 });

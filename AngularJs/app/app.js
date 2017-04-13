@@ -35,11 +35,11 @@ config(['$locationProvider', '$stateProvider','$urlRouterProvider', function($lo
             }
         }
     }).state("pw_detail",{
-        url: '/pw_detail',
+        url: '/pw_detail/:index',
         views: {
             'index': {
                 templateUrl: 'guwenpw/pw_detail.html',
-                controller: 'guwenpwCtrl', //也可以写成HomeController as home
+                controller: 'guwenpwCtrl',
                 controllerAs: 'guwenpw'
             }
         }

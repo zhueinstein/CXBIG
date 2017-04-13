@@ -145,5 +145,8 @@ table {
     width:1200px;
 }
 
+.pointer {cursor: pointer;}
+.playTitle {font-size: 16px;margin-top: 10px;cursor:pointer;}
+
 
 
