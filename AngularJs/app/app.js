@@ -1,8 +1,8 @@
 'use strict';
 
     require('./bower_components/angular/angular.min.js')
-    require('./bower_components/angular-route/angular-route.js')
-    require('./bower_components/angular-ui-router/release/angular-ui-router.js')
+    require('./bower_components/angular-route/angular-route.min.js')
+    require('./bower_components/angular-ui-router/release/angular-ui-router.min.js')
     require('./components/version/version.js')
     require('./components/version/version-directive.js')
     require('./components/version/interpolate-filter.js')
