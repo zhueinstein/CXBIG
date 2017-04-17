@@ -1,11 +1,16 @@
 'use strict';
 
-angular.module('myApp.support-enterprises', ['ngRoute'])
+angular.module('myApp.support-enterprises', ['ui.router'])
 
-    .config(['$routeProvider', function($routeProvider) {
-        $routeProvider.when('/support-enterprises', {
-            templateUrl: 'support-enterprises/support-enterprises.html',
-            controller: 'support-enterprisesCtrl'
+    .config(['$stateProvider', function($stateProvider) {
+        $stateProvider.state('support-enterprises', {
+            url:"/support-enterprises",
+            views:{
+                'index':{
+                    templateUrl: 'support-enterprises/support-enterprises.html',
+                    controller: 'support-enterprisesCtrl'
+                }
+            }
         });
     }])
 

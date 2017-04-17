@@ -26,7 +26,6 @@
 // Declare app level module which depends on views, and components
 angular.module('myApp', [
   'ui.router',
-  'myApp.view1',
   'myApp.home',
   'myApp.match-introduction',
   'myApp.matchIntroduction',
@@ -42,7 +41,6 @@ angular.module('myApp', [
   'myApp.match-news',
   'myApp.match-notice',
   'myApp.support-enterprises',
-  'myApp.view2',
   'myApp.version'
 
 
@@ -58,11 +56,11 @@ config(['$locationProvider', '$stateProvider','$urlRouterProvider', function($lo
             }
         }
     }).state("pw_detail",{
-        url: '/pw_detail',
+        url: '/pw_detail/:index',
         views: {
             'index': {
                 templateUrl: 'guwenpw/pw_detail.html',
-                controller: 'guwenpwCtrl', //也可以写成HomeController as home
+                controller: 'guwenpwCtrl',
                 controllerAs: 'guwenpw'
             }
         }
@@ -179,7 +177,22 @@ config(['$locationProvider', '$stateProvider','$urlRouterProvider', function($lo
                 controller: 'match-video-collCtrl',
             }
         }
-    })
+    }).state('supportEnterprise', {
+            url:"/supportEnterprise",
+            views: {
+                'index': {
+                    templateUrl: 'supportEnterprise/supportEnterprise.html',
+                    controller: 'SupportEnterpriseCtrl'
+                }
+            }
+        }).state('apply', {
+            url:"/apply",
+            views: {
+                'index': {
+                    templateUrl: 'apply/apply.html',
+                }
+            }
+        })
     $urlRouterProvider.otherwise("/home")
 }]).controller("switchActive",function ($scope) {
     $scope.toggle = function () {
