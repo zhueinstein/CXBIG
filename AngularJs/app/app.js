@@ -1,5 +1,28 @@
 'use strict';
 
+    require('./bower_components/angular/angular.js')
+    require('./bower_components/angular-route/angular-route.js')
+    require('./bower_components/angular-ui-router/release/angular-ui-router.js')
+    require('./view1/view1.js')
+    require('./view2/view2.js')
+    require('./components/version/version.js')
+    require('./components/version/version-directive.js')
+    require('./components/version/interpolate-filter.js')
+    require('./home/home.js')
+    require('./match-introduction/match-introduction.js')
+    require('./matchIntroduction/matchIntroduction.js')
+    require('./organization/organization.js')
+    require('./org-group/org-group.js')
+    require('./guests/guests.js')
+    require('./guwenpw/guwenpw.js')
+    require('./media/media.js')
+    require('./communication/communication.js')
+    require('./match-info-coll/match-info-coll.js')
+    require('./match-video-coll/match-video-coll.js')
+    require('./competitor/competitor.js')
+    require('./match-news/match-news.js')
+    require('./match-notice/match-notice.js')
+    require('./support-enterprises/support-enterprises.js')
 // Declare app level module which depends on views, and components
 angular.module('myApp', [
   'ui.router',
