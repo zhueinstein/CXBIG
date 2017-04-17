@@ -18,35 +18,17 @@ webpackJsonp([0,1],[
 	    __webpack_require__(12)
 	    __webpack_require__(13)
 	    __webpack_require__(14)
-	    __webpack_require__(15)
-	    __webpack_require__(16)
-	    __webpack_require__(17)
-	    __webpack_require__(18)
-	    __webpack_require__(19)
-	    __webpack_require__(20)
-	    __webpack_require__(21)
-	    __webpack_require__(22)
-	    __webpack_require__(23)
 	// Declare app level module which depends on views, and components
 	angular.module('myApp', [
 	  'ui.router',
-	  'myApp.view1',
 	  'myApp.home',
-	  'myApp.match-introduction',
 	  'myApp.matchIntroduction',
-	  'myApp.organization',
-	  'myApp.org-group',
-	  'myApp.guests',
-	  'myApp.guwenpw',
-	  'myApp.media',
-	  'myApp.communication',
 	  'myApp.match-info-coll',
 	  'myApp.match-video-coll',
-	  'myApp.competitor',
 	  'myApp.match-news',
+	  'myApp.guwenpw',
 	  'myApp.match-notice',
 	  'myApp.support-enterprises',
-	  'myApp.view2',
 	  'myApp.version'
 
 
@@ -62,11 +44,11 @@ webpackJsonp([0,1],[
 	            }
 	        }
 	    }).state("pw_detail",{
-	        url: '/pw_detail',
+	        url: '/pw_detail/:index',
 	        views: {
 	            'index': {
 	                templateUrl: 'guwenpw/pw_detail.html',
-	                controller: 'guwenpwCtrl', //也可以写成HomeController as home
+	                controller: 'guwenpwCtrl',
 	                controllerAs: 'guwenpw'
 	            }
 	        }
@@ -164,7 +146,6 @@ webpackJsonp([0,1],[
 	        views: {
 	            'index': {
 	                templateUrl: "competitor/competitor.html",
-	                controller: 'competitorCtrl',
 	            }
 	        }
 	    }).state('match-video-coll',{
@@ -183,7 +164,21 @@ webpackJsonp([0,1],[
 	                controller: 'match-video-collCtrl',
 	            }
 	        }
-	    })
+	    }).state('supportEnterprise', {
+	            url:"/supportEnterprise",
+	            views: {
+	                'index': {
+	                    templateUrl: 'supportEnterprise/supportEnterprise.html',
+	                }
+	            }
+	        }).state('apply', {
+	            url:"/apply",
+	            views: {
+	                'index': {
+	                    templateUrl: 'apply/apply.html',
+	                }
+	            }
+	        })
 	    $urlRouterProvider.otherwise("/home")
 	}]).controller("switchActive",function ($scope) {
 	    $scope.toggle = function () {
@@ -38590,44 +38585,6 @@ webpackJsonp([0,1],[
 
 	'use strict';
 
-	angular.module('myApp.view1', ['ngRoute'])
-
-	.config(['$routeProvider', function($routeProvider) {
-	  $routeProvider.when('/view1', {
-	    templateUrl: 'view1/home.html',
-	    controller: 'View1Ctrl'
-	  });
-	}])
-
-	.controller('View1Ctrl', [function() {
-
-	}]);
-
-/***/ },
-/* 5 */
-/***/ function(module, exports) {
-
-	'use strict';
-
-	angular.module('myApp.view2', ['ngRoute'])
-
-	.config(['$routeProvider', function($routeProvider) {
-	  $routeProvider.when('/view2', {
-	    templateUrl: 'view2/view2.html',
-	    controller: 'View2Ctrl'
-	  });
-	}])
-
-	.controller('View2Ctrl', [function() {
-
-	}]);
-
-/***/ },
-/* 6 */
-/***/ function(module, exports) {
-
-	'use strict';
-
 	angular.module('myApp.version', [
 	  'myApp.version.interpolate-filter',
 	  'myApp.version.version-directive'
@@ -38637,7 +38594,7 @@ webpackJsonp([0,1],[
 
 
 /***/ },
-/* 7 */
+/* 5 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -38652,7 +38609,7 @@ webpackJsonp([0,1],[
 
 
 /***/ },
-/* 8 */
+/* 6 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -38667,11 +38624,11 @@ webpackJsonp([0,1],[
 
 
 /***/ },
-/* 9 */
+/* 7 */
 /***/ function(module, exports) {
 
 	'use strict';
-	var app = angular.module('myApp.home', ['ngRoute']);
+	var app = angular.module('myApp.home', ['ui.router']);
 	app.controller('HomeCtrl', function($scope) {
 	    $scope.pws1 = [
 	        {title:"郭兰英  ...",detail:"国家一级演员 著名歌唱家",pic:"../resources/images/pw/585d310a66cd9.jpg",url:"#/pw_detail"},
@@ -38716,27 +38673,7 @@ webpackJsonp([0,1],[
 	});
 
 /***/ },
-/* 10 */
-/***/ function(module, exports) {
-
-	'use strict';
-
-	angular.module('myApp.match-introduction', ['ngRoute'])
-
-	.config(['$routeProvider', function($routeProvider) {
-	  $routeProvider.when('/match-introduction', {
-	    templateUrl: 'match-introduction/match-introduction.html',
-	    controller: 'match-introductionCtrl'
-	  });
-	}])
-
-	.controller('match-introductionCtrl', function ($scope, $state, $location, $stateParams) {
-	   /* console.log($stateParams.cx)
-	    $state.go($stateParams.cx);*/
-	});
-
-/***/ },
-/* 11 */
+/* 8 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -38786,82 +38723,13 @@ webpackJsonp([0,1],[
 
 
 /***/ },
-/* 12 */
+/* 9 */
 /***/ function(module, exports) {
 
 	'use strict';
 
-	angular.module('myApp.organization', ['ngRoute'])
-
-	.config(['$routeProvider', function($routeProvider) {
-	  $routeProvider.when('/organization', {
-	    templateUrl: 'organization/organization.html',
-	    controller: 'organizationCtrl'
-	  });
-	}])
-
-	.controller('organizationCtrl', [function() {
-
-	}]);
-
-/***/ },
-/* 13 */
-/***/ function(module, exports) {
-
-	'use strict';
-
-	angular.module('myApp.org-group', ['ngRoute'])
-
-	.config(['$routeProvider', function($routeProvider) {
-	  $routeProvider.when('/org-group', {
-	    templateUrl: 'org-group/org-group.html',
-	    controller: 'org-groupCtrl'
-	  });
-	}])
-
-	.controller('org-groupCtrl', [function() {
-
-	}]);
-
-/***/ },
-/* 14 */
-/***/ function(module, exports) {
-
-	'use strict';
-
-	angular.module('myApp.guests', ['ngRoute'])
-
-	.config(['$routeProvider', function($routeProvider) {
-	  $routeProvider.when('/guests', {
-	    templateUrl: 'guests/guests.html',
-	    controller: 'guestsCtrl'
-	  });
-	}])
-
-	.controller('guestsCtrl', [function() {
-
-	}]);
-
-/***/ },
-/* 15 */
-/***/ function(module, exports) {
-
-	'use strict';
-
-	angular.module('myApp.guwenpw', ['ngRoute'])
-
-	.config(['$routeProvider', function($routeProvider) {
-	  $routeProvider.when('/guwenpw', {
-	    templateUrl: 'guwenpw/guwenpw.html',
-	    controller: 'guwenpwCtrl'
-	  });
-	    $routeProvider.when('/pw_detail', {
-	        templateUrl: 'guwenpw/pw_detail.html',
-	        controller: 'guwenpwCtrl'
-	    });
-	}])
-
-	.controller('guwenpwCtrl', function($scope,$http) {
+	angular.module('myApp.guwenpw', ['ui.router'])
+	.controller('guwenpwCtrl', function($scope,$http, $state,$stateParams) {
 	    $scope.pws = [
 	          {title:"郭兰英  国家一级演员 著名歌...",detail:"郭兰英  国家一级演员 著名歌唱家",pic:"../resources/images/pw/585d310a66cd9.jpg",url:"#/pw_detail",shows:false},
 	          {title:"邓玉华  国家一级演员  著名...",detail:"邓玉华  国家一级演员  著名歌唱家",pic:"../resources/images/pw/585516c707b80.jpg",url:"#/pw_detail",shows:false},
@@ -38907,58 +38775,58 @@ webpackJsonp([0,1],[
 	      $scope.leave = function (pw) {
 	          pw.shows = false;
 	      }
+	    if($stateParams.index){
+	        $scope.detailTitle = $scope.pws[$stateParams.index].detail;
+	        $scope.detailPic = $scope.pws[$stateParams.index].pic;
+	    }
+	      $scope.goDetail = function (index) {
+
+	          $state.go("pw_detail",{index:index});
+	      }
+
+	      $scope.goOutWh = function (name) {
+	            const param = name.substring(name.indexOf("-")+1)
+	          if(param === "introduction"){
+	                 $state.go(name, {introduction:'on'});
+	          }
+	           if(param === "organization"){
+	                 $state.go(name, {organization:'on'});
+	          }
+	           if(param === "group"){
+	                 $state.go(name, {group:'on'});
+	          }
+	           if(param === "guests"){
+	                 $state.go(name, {guests:'on'});
+	          }
+	           if(param === "guwenpw"){
+	                 $state.go(name, {guwenpw:'on'});
+	          }
+	           if(param === "media"){
+	                 $state.go(name, {media:'on'});
+	          }
+	           if(param === "communication"){
+	                 $state.go(name, {communication:'on'});
+	          }
+	      }
 	});
 
 /***/ },
-/* 16 */
+/* 10 */
 /***/ function(module, exports) {
 
 	'use strict';
 
-	angular.module('myApp.media', ['ngRoute'])
+	angular.module('myApp.match-info-coll', ['ui.router'])
 
-	.config(['$routeProvider', function($routeProvider) {
-	  $routeProvider.when('/media', {
-	    templateUrl: 'media/media.html',
-	    controller: 'mediaCtrl'
-	  });
-	}])
-
-	.controller('mediaCtrl', [function() {
-
-	}]);
-
-/***/ },
-/* 17 */
-/***/ function(module, exports) {
-
-	'use strict';
-
-	angular.module('myApp.communication', ['ngRoute'])
-
-	.config(['$routeProvider', function($routeProvider) {
-	  $routeProvider.when('/communication', {
-	    templateUrl: 'communication/communication.html',
-	    controller: 'communicationCtrl'
-	  });
-	}])
-
-	.controller('communicationCtrl', [function() {
-
-	}]);
-
-/***/ },
-/* 18 */
-/***/ function(module, exports) {
-
-	'use strict';
-
-	angular.module('myApp.match-info-coll', ['ngRoute'])
-
-	.config(['$routeProvider', function($routeProvider) {
-	  $routeProvider.when('/match-info-coll', {
-	    templateUrl: 'match-info-coll/match-info-coll.html',
-	    controller: 'match-info-collCtrl'
+	.config(['$stateProvider', function($stateProvider) {
+	    $stateProvider.state('match-info-coll', {
+	      url:"/match-info-coll",
+	        views:{
+	          'index':{
+	            templateUrl: 'match-info-coll/match-info-coll.html',
+	            controller: 'match-info-collCtrl'
+	          }
+	        }
 	  });
 	}])
 
@@ -38967,7 +38835,7 @@ webpackJsonp([0,1],[
 	}]);
 
 /***/ },
-/* 19 */
+/* 11 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -39012,29 +38880,12 @@ webpackJsonp([0,1],[
 	        if($stateParams.id){
 	            $scope.playUrl = ($scope.videos[$stateParams.id]).url;
 	            $scope.playTitle = ($scope.videos[$stateParams.id]).title;
+	            $scope.playPoster = ($scope.videos[$stateParams.id]).img;
 	        }
 	    });
 
 /***/ },
-/* 20 */
-/***/ function(module, exports) {
-
-	'use strict';
-
-	angular.module('myApp.competitor', ['ngRoute'])
-
-	    .config(['$routeProvider', function($routeProvider) {
-	        $routeProvider.when('/competitor', {
-	            templateUrl: 'competitor/competitor.html',
-	            controller: 'competitorCtrl'
-	        });
-	    }])
-	    .controller('competitorCtrl', [function() {
-
-	    }]);
-
-/***/ },
-/* 21 */
+/* 12 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -39271,7 +39122,7 @@ webpackJsonp([0,1],[
 	})
 
 /***/ },
-/* 22 */
+/* 13 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -39290,17 +39141,22 @@ webpackJsonp([0,1],[
 	    }]);
 
 /***/ },
-/* 23 */
+/* 14 */
 /***/ function(module, exports) {
 
 	'use strict';
 
-	angular.module('myApp.support-enterprises', ['ngRoute'])
+	angular.module('myApp.support-enterprises', ['ui.router'])
 
-	    .config(['$routeProvider', function($routeProvider) {
-	        $routeProvider.when('/support-enterprises', {
-	            templateUrl: 'support-enterprises/support-enterprises.html',
-	            controller: 'support-enterprisesCtrl'
+	    .config(['$stateProvider', function($stateProvider) {
+	        $stateProvider.state('support-enterprises', {
+	            url:"/support-enterprises",
+	            views:{
+	                'index':{
+	                    templateUrl: 'support-enterprises/support-enterprises.html',
+	                    controller: 'support-enterprisesCtrl'
+	                }
+	            }
 	        });
 	    }])
 

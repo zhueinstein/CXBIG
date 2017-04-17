@@ -1,11 +1,16 @@
 'use strict';
 
-angular.module('myApp.match-info-coll', ['ngRoute'])
+angular.module('myApp.match-info-coll', ['ui.router'])
 
-.config(['$routeProvider', function($routeProvider) {
-  $routeProvider.when('/match-info-coll', {
-    templateUrl: 'match-info-coll/match-info-coll.html',
-    controller: 'match-info-collCtrl'
+.config(['$stateProvider', function($stateProvider) {
+    $stateProvider.state('match-info-coll', {
+      url:"/match-info-coll",
+        views:{
+          'index':{
+            templateUrl: 'match-info-coll/match-info-coll.html',
+            controller: 'match-info-collCtrl'
+          }
+        }
   });
 }])
 

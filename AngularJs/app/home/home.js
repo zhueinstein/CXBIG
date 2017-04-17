@@ -1,5 +1,5 @@
 'use strict';
-var app = angular.module('myApp.home', ['ngRoute']);
+var app = angular.module('myApp.home', ['ui.router']);
 app.controller('HomeCtrl', function($scope) {
     $scope.pws1 = [
         {title:"郭兰英  ...",detail:"国家一级演员 著名歌唱家",pic:"../resources/images/pw/585d310a66cd9.jpg",url:"#/pw_detail"},
