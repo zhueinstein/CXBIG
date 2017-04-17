@@ -1,6 +1,6 @@
 'use strict';
 
-    require('./bower_components/angular/angular.js')
+    require('./bower_components/angular/angular.min.js')
     require('./bower_components/angular-route/angular-route.js')
     require('./bower_components/angular-ui-router/release/angular-ui-router.js')
     require('./components/version/version.js')
