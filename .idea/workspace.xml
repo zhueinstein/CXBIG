@@ -2,40 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f38d1ab8-377e-4b4b-8550-b9756bfcd095" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AngularJs/app/apply/apply.html" afterPath="$PROJECT_DIR$/AngularJs/app/apply/apply.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AngularJs/app/build/index.js" afterPath="$PROJECT_DIR$/AngularJs/app/build/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AngularJs/app/competitor/competitor.html" afterPath="$PROJECT_DIR$/AngularJs/app/competitor/competitor.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AngularJs/app/guwenpw/guwenpw.html" afterPath="$PROJECT_DIR$/AngularJs/app/guwenpw/guwenpw.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AngularJs/app/guwenpw/guwenpw.js" afterPath="$PROJECT_DIR$/AngularJs/app/guwenpw/guwenpw.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AngularJs/app/home/home-pw.html" afterPath="$PROJECT_DIR$/AngularJs/app/home/home-pw.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AngularJs/app/home/home.html" afterPath="$PROJECT_DIR$/AngularJs/app/home/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AngularJs/app/home/home.js" afterPath="$PROJECT_DIR$/AngularJs/app/home/home.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AngularJs/app/match-introduction/match-introduction.html" afterPath="$PROJECT_DIR$/AngularJs/app/match-introduction/match-introduction.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AngularJs/app/match-news/new-AH-singing-ceremony.html" afterPath="$PROJECT_DIR$/AngularJs/app/match-news/new-AH-singing-ceremony.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AngularJs/app/match-news/news-BJ-conference.html" afterPath="$PROJECT_DIR$/AngularJs/app/match-news/news-BJ-conference.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AngularJs/app/match-news/news-Corporation-Wish-NewYear.html" afterPath="$PROJECT_DIR$/AngularJs/app/match-news/news-Corporation-Wish-NewYear.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AngularJs/app/match-news/news-Corporation-memory-90-forum.html" afterPath="$PROJECT_DIR$/AngularJs/app/match-news/news-Corporation-memory-90-forum.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AngularJs/app/match-news/news-Corporation-we-activities.html" afterPath="$PROJECT_DIR$/AngularJs/app/match-news/news-Corporation-we-activities.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AngularJs/app/match-news/news-Corporation-ygs-conference.html" afterPath="$PROJECT_DIR$/AngularJs/app/match-news/news-Corporation-ygs-conference.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AngularJs/app/match-news/news-GX-conference.html" afterPath="$PROJECT_DIR$/AngularJs/app/match-news/news-GX-conference.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AngularJs/app/match-news/news-GZ-conference.html" afterPath="$PROJECT_DIR$/AngularJs/app/match-news/news-GZ-conference.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AngularJs/app/match-news/news-HB-SJZ-conference.html" afterPath="$PROJECT_DIR$/AngularJs/app/match-news/news-HB-SJZ-conference.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AngularJs/app/match-news/news-HB-SJZ-young-mass-election-over.html" afterPath="$PROJECT_DIR$/AngularJs/app/match-news/news-HB-SJZ-young-mass-election-over.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AngularJs/app/match-news/news-HB-conference.html" afterPath="$PROJECT_DIR$/AngularJs/app/match-news/news-HB-conference.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AngularJs/app/match-news/news-HLJ-DQ-conference.html" afterPath="$PROJECT_DIR$/AngularJs/app/match-news/news-HLJ-DQ-conference.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AngularJs/app/match-news/news-HLJ-DQ-extends-sprite.html" afterPath="$PROJECT_DIR$/AngularJs/app/match-news/news-HLJ-DQ-extends-sprite.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AngularJs/app/match-news/news-HLJ-DQ-first-mass-election.html" afterPath="$PROJECT_DIR$/AngularJs/app/match-news/news-HLJ-DQ-first-mass-election.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AngularJs/app/match-news/news-HLJ-JL-apply.html" afterPath="$PROJECT_DIR$/AngularJs/app/match-news/news-HLJ-JL-apply.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AngularJs/app/match-news/news-HN-conference.html" afterPath="$PROJECT_DIR$/AngularJs/app/match-news/news-HN-conference.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AngularJs/app/match-news/news-JL-20160619-quarter-final.html" afterPath="$PROJECT_DIR$/AngularJs/app/match-news/news-JL-20160619-quarter-final.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AngularJs/app/match-news/news-JL-BaYi-music.html" afterPath="$PROJECT_DIR$/AngularJs/app/match-news/news-JL-BaYi-music.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AngularJs/app/match-news/news-NMG-conference.html" afterPath="$PROJECT_DIR$/AngularJs/app/match-news/news-NMG-conference.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AngularJs/app/match-news/news-SAX-conference.html" afterPath="$PROJECT_DIR$/AngularJs/app/match-news/news-SAX-conference.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AngularJs/app/match-news/news-SAX-signing-ceremony.html" afterPath="$PROJECT_DIR$/AngularJs/app/match-news/news-SAX-signing-ceremony.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AngularJs/app/match-news/news-SX-NewYear-activities.html" afterPath="$PROJECT_DIR$/AngularJs/app/match-news/news-SX-NewYear-activities.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AngularJs/app/match-news/news-SX-signing-ceremony.html" afterPath="$PROJECT_DIR$/AngularJs/app/match-news/news-SX-signing-ceremony.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AngularJs/app/match-video-coll/match-video-coll.js" afterPath="$PROJECT_DIR$/AngularJs/app/match-video-coll/match-video-coll.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AngularJs/app/match-video-coll/match-video-play.html" afterPath="$PROJECT_DIR$/AngularJs/app/match-video-coll/match-video-play.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AngularJs/app/app.css" afterPath="$PROJECT_DIR$/AngularJs/app/app.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -100,6 +67,19 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="app.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AngularJs/app/app.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="671">
+              <caret line="249" column="70" lean-forward="false" selection-start-line="249" selection-start-column="70" selection-end-line="249" selection-end-column="70" />
+              <folding>
+                <marker date="1492487465800" expanded="true" signature="14574:14633" ph="{...}" />
+                <marker date="1492487465800" expanded="true" signature="14654:14682" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="news-BJ-conference.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AngularJs/app/match-news/news-BJ-conference.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -140,21 +120,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="news-Corporation-must-know.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="news-Corporation-must-know.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AngularJs/app/match-news/news-Corporation-must-know.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="23" column="57" lean-forward="true" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AngularJs/app/home/home.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="557">
-              <caret line="40" column="18" lean-forward="false" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
+            <state relative-caret-position="264">
+              <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -259,7 +229,6 @@
         <option value="$PROJECT_DIR$/AngularJs/app/media/media.js" />
         <option value="$PROJECT_DIR$/AngularJs/app/org-group/org-group.js" />
         <option value="$PROJECT_DIR$/AngularJs/app/organization/organization.js" />
-        <option value="$PROJECT_DIR$/AngularJs/app/app.css" />
         <option value="$PROJECT_DIR$/AngularJs/webpack.config.js" />
         <option value="$PROJECT_DIR$/AngularJs/app/app.js" />
         <option value="$PROJECT_DIR$/AngularJs/bower.json" />
@@ -273,6 +242,7 @@
         <option value="$PROJECT_DIR$/AngularJs/app/apply/apply.html" />
         <option value="$PROJECT_DIR$/AngularJs/app/competitor/competitor.html" />
         <option value="$PROJECT_DIR$/AngularJs/app/guwenpw/guwenpw.html" />
+        <option value="$PROJECT_DIR$/AngularJs/app/app.css" />
       </list>
     </option>
   </component>
@@ -1177,12 +1147,12 @@
       <workItem from="1491382332066" duration="27180000" />
       <workItem from="1491913612097" duration="3609000" />
       <workItem from="1491926700390" duration="12065000" />
-      <workItem from="1492416555479" duration="14836000" />
+      <workItem from="1492416555479" duration="15066000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70409000" />
+    <option name="totallyTimeSpent" value="70639000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1490,19 +1460,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AngularJs/app/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="206" column="68" lean-forward="false" selection-start-line="206" selection-start-column="68" selection-end-line="206" selection-end-column="68" />
-          <folding>
-            <marker date="1492424970200" expanded="true" signature="12176:12232" ph="{...}" />
-            <marker date="1492424970200" expanded="true" signature="12253:12281" ph="{...}" />
-            <marker date="1492424970200" expanded="true" signature="13965:14024" ph="{...}" />
-            <marker date="1492424970200" expanded="true" signature="14045:14073" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AngularJs/app/build/6ea8fbd8e7c130e9f5294c8d2fd5a975.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1550,8 +1507,8 @@
         <state relative-caret-position="418">
           <caret line="122" column="73" lean-forward="false" selection-start-line="122" selection-start-column="73" selection-end-line="122" selection-end-column="73" />
           <folding>
-            <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1661,9 +1618,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AngularJs/app/match-news/news-Corporation-must-know.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="23" column="57" lean-forward="true" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
+        <state relative-caret-position="264">
+          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AngularJs/app/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="671">
+          <caret line="249" column="70" lean-forward="false" selection-start-line="249" selection-start-column="70" selection-end-line="249" selection-end-column="70" />
+          <folding>
+            <marker date="1492487465800" expanded="true" signature="14574:14633" ph="{...}" />
+            <marker date="1492487465800" expanded="true" signature="14654:14682" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
