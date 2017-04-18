@@ -1,15 +1,18 @@
 'use strict';
 
-const  news = angular.module('myApp.news', ['ngRoute']);
+var  news = angular.module('myApp.news', ['ui.router']);
 
-    app.config(['$routeProvider', function($routeProvider) {
-        $routeProvider.when('/news', {
+    app.config(['$stateProvider', function($stateProvider) {
+        $stateProvider.state('news', {
+            url:"/news",
             templateUrl: 'news/news.html',
             controller: 'NewsCtrl'
-        }).when('/notices', {
+        }).state('notices', {
+            url:"/notices",
             templateUrl: 'news/notices.html',
             controller: 'NewsCtrl'
-        }).when('/new-AH-signing-ceremony', {
+        }).state('new-AH-signing-ceremony', {
+            url:"/new-AH-signing-ceremony",
             templateUrl: 'news/coll-news/new-AH-signing-ceremony.html',
             controller: 'NewsCtrl'
         });

@@ -1,30 +1,38 @@
 'use strict';
 
-const matchIntroduction = angular.module('myApp.matchIntroduction', ['ngRoute']);
+var matchIntroduction = angular.module('myApp.matchIntroduction', ['ui.router']);
 
-matchIntroduction.config(['$routeProvider', function($routeProvider) {
-        $routeProvider.when('/matchIntroduction', {
+matchIntroduction.config(['$stateProvider', function($stateProvider) {
+    $stateProvider.state('matchIntroduction', {
+            url:"/matchIntroduction",
             templateUrl: 'matchIntroduction/matchIntroduction.html',
             controller: 'MatchIntroductionCtrl'
-        }).when('/consultingAndJudges', {
+        }).state('consultingAndJudges', {
+            url:"/consultingAndJudges",
             templateUrl: 'matchIntroduction/consultingAndJudges/consultingAndJudges.html',
             controller: 'MatchIntroductionCtrl'
-        }).when('/contactUs', {
+        }).state('contactUs', {
+            url:"/contactUs",
             templateUrl: 'matchIntroduction/contactUs/contactUs.html',
             controller: 'MatchIntroductionCtrl'
-        }).when('/membersAndGuests', {
+        }).state('membersAndGuests', {
+            url:"/membersAndGuests",
             templateUrl: 'matchIntroduction/membersAndGuests/membersAndGuests.html',
             controller: 'MatchIntroductionCtrl'
-        }).when('/organization', {
+        }).state('organization', {
+            url:"/organization",
             templateUrl: 'matchIntroduction/organization/organization.html',
             controller: 'MatchIntroductionCtrl'
-        }).when('/supportMedia', {
+        }).state('supportMedia', {
+            url:"/supportMedia",
             templateUrl: 'matchIntroduction/supportMedia/supportMedia.html',
             controller: 'MatchIntroductionCtrl'
-        }).when('/committeeMember', {
+        }).state('committeeMember', {
+            url:"/committeeMember",
             templateUrl: 'matchIntroduction/committeeMember/committeeMember.html',
             controller: 'MatchIntroductionCtrl'
-        }).when('/introduction', {
+        }).state('/introduction', {
+            url:"/introduction",
             templateUrl: 'matchIntroduction/introduction.html',
             controller: 'MatchIntroductionCtrl'
         });
@@ -78,15 +86,5 @@ matchIntroduction.config(['$routeProvider', function($routeProvider) {
             {name:"支持媒体",target:"#/supportMedia",on:""},
             {name:"联系方式",target:"#/contactUs",on:""}
         ];
-        $scope.addClass = function (data, event) {
-
-         angular.forEach( $scope.menus, function(data){
-              data.on = "";
-             console.log(data.name +  "  = " + data.on  )
-          })
-            console.log(data.on)
-            data.on = "on";
-        }
-        event.stopPropagation();
     });
 

@@ -2,12 +2,70 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f38d1ab8-377e-4b4b-8550-b9756bfcd095" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AngularJs/webpack.config.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AH-WX/app/apply/apply.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AH-WX/app/competitor/competitor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AH-WX/app/home/home.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AH-WX/app/supportEnterprise/supportEnterprise.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AH-WX/app/view2/view2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AH-WX/app/view2/view2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AH-WX/app/view2/view2_test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AngularJs/app/competitor/competitor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AngularJs/app/guests/guests.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AngularJs/app/match-introduction/match-introduction.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AngularJs/app/view1/view1.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AngularJs/app/view1/view1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AngularJs/app/view1/view1_test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AngularJs/app/view2/view2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AngularJs/app/view2/view2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AngularJs/app/view2/view2_test.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AH-WX/app/app.js" afterPath="$PROJECT_DIR$/AH-WX/app/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AH-WX/app/index.html" afterPath="$PROJECT_DIR$/AH-WX/app/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AH-WX/app/matchColl/matchColl.js" afterPath="$PROJECT_DIR$/AH-WX/app/matchColl/matchColl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AH-WX/app/matchIntroduction/matchIntroduction.js" afterPath="$PROJECT_DIR$/AH-WX/app/matchIntroduction/matchIntroduction.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AH-WX/app/news/news.js" afterPath="$PROJECT_DIR$/AH-WX/app/news/news.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AH-WX/bower.json" afterPath="$PROJECT_DIR$/AH-WX/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AngularJs/app/app.css" afterPath="$PROJECT_DIR$/AngularJs/app/app.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AngularJs/app/app.js" afterPath="$PROJECT_DIR$/AngularJs/app/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AngularJs/app/communication/communication.html" afterPath="$PROJECT_DIR$/AngularJs/app/communication/communication.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AngularJs/app/build/index.js" afterPath="$PROJECT_DIR$/AngularJs/app/build/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AngularJs/app/competitor/competitor.html" afterPath="$PROJECT_DIR$/AngularJs/app/competitor/competitor.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AngularJs/app/guwenpw/guwenpw.html" afterPath="$PROJECT_DIR$/AngularJs/app/guwenpw/guwenpw.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AngularJs/app/guwenpw/guwenpw.js" afterPath="$PROJECT_DIR$/AngularJs/app/guwenpw/guwenpw.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AngularJs/app/home/home-pw.html" afterPath="$PROJECT_DIR$/AngularJs/app/home/home-pw.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AngularJs/app/home/home.html" afterPath="$PROJECT_DIR$/AngularJs/app/home/home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AngularJs/app/home/home.js" afterPath="$PROJECT_DIR$/AngularJs/app/home/home.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AngularJs/app/index.html" afterPath="$PROJECT_DIR$/AngularJs/app/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AngularJs/app/main.css" afterPath="$PROJECT_DIR$/AngularJs/app/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AngularJs/app/match-introduction/match-introduction.html" afterPath="$PROJECT_DIR$/AngularJs/app/match-introduction/match-introduction.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AngularJs/app/match-news/new-AH-singing-ceremony.html" afterPath="$PROJECT_DIR$/AngularJs/app/match-news/new-AH-singing-ceremony.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AngularJs/app/match-news/news-BJ-conference.html" afterPath="$PROJECT_DIR$/AngularJs/app/match-news/news-BJ-conference.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AngularJs/app/match-news/news-Corporation-Wish-NewYear.html" afterPath="$PROJECT_DIR$/AngularJs/app/match-news/news-Corporation-Wish-NewYear.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AngularJs/app/match-news/news-Corporation-memory-90-forum.html" afterPath="$PROJECT_DIR$/AngularJs/app/match-news/news-Corporation-memory-90-forum.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AngularJs/app/match-news/news-Corporation-we-activities.html" afterPath="$PROJECT_DIR$/AngularJs/app/match-news/news-Corporation-we-activities.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AngularJs/app/match-news/news-Corporation-ygs-conference.html" afterPath="$PROJECT_DIR$/AngularJs/app/match-news/news-Corporation-ygs-conference.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AngularJs/app/match-news/news-GX-conference.html" afterPath="$PROJECT_DIR$/AngularJs/app/match-news/news-GX-conference.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AngularJs/app/match-news/news-GZ-conference.html" afterPath="$PROJECT_DIR$/AngularJs/app/match-news/news-GZ-conference.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AngularJs/app/match-news/news-HB-SJZ-conference.html" afterPath="$PROJECT_DIR$/AngularJs/app/match-news/news-HB-SJZ-conference.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AngularJs/app/match-news/news-HB-SJZ-young-mass-election-over.html" afterPath="$PROJECT_DIR$/AngularJs/app/match-news/news-HB-SJZ-young-mass-election-over.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AngularJs/app/match-news/news-HB-conference.html" afterPath="$PROJECT_DIR$/AngularJs/app/match-news/news-HB-conference.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AngularJs/app/match-news/news-HLJ-DQ-conference.html" afterPath="$PROJECT_DIR$/AngularJs/app/match-news/news-HLJ-DQ-conference.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AngularJs/app/match-news/news-HLJ-DQ-extends-sprite.html" afterPath="$PROJECT_DIR$/AngularJs/app/match-news/news-HLJ-DQ-extends-sprite.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AngularJs/app/match-news/news-HLJ-DQ-first-mass-election.html" afterPath="$PROJECT_DIR$/AngularJs/app/match-news/news-HLJ-DQ-first-mass-election.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AngularJs/app/match-news/news-HLJ-JL-apply.html" afterPath="$PROJECT_DIR$/AngularJs/app/match-news/news-HLJ-JL-apply.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AngularJs/app/match-news/news-HN-conference.html" afterPath="$PROJECT_DIR$/AngularJs/app/match-news/news-HN-conference.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AngularJs/app/match-news/news-JL-20160619-quarter-final.html" afterPath="$PROJECT_DIR$/AngularJs/app/match-news/news-JL-20160619-quarter-final.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AngularJs/app/match-news/news-JL-BaYi-music.html" afterPath="$PROJECT_DIR$/AngularJs/app/match-news/news-JL-BaYi-music.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AngularJs/app/match-news/news-NMG-conference.html" afterPath="$PROJECT_DIR$/AngularJs/app/match-news/news-NMG-conference.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AngularJs/app/match-news/news-SAX-conference.html" afterPath="$PROJECT_DIR$/AngularJs/app/match-news/news-SAX-conference.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AngularJs/app/match-news/news-SAX-signing-ceremony.html" afterPath="$PROJECT_DIR$/AngularJs/app/match-news/news-SAX-signing-ceremony.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AngularJs/app/match-news/news-SX-NewYear-activities.html" afterPath="$PROJECT_DIR$/AngularJs/app/match-news/news-SX-NewYear-activities.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AngularJs/app/match-news/news-SX-signing-ceremony.html" afterPath="$PROJECT_DIR$/AngularJs/app/match-news/news-SX-signing-ceremony.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AngularJs/app/match-video-coll/match-video-coll.html" afterPath="$PROJECT_DIR$/AngularJs/app/match-video-coll/match-video-coll.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AngularJs/app/match-video-coll/match-video-coll.js" afterPath="$PROJECT_DIR$/AngularJs/app/match-video-coll/match-video-coll.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AngularJs/app/match-video-coll/match-video-play.html" afterPath="$PROJECT_DIR$/AngularJs/app/match-video-coll/match-video-play.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AngularJs/app/sign-up/sign-up.html" afterPath="$PROJECT_DIR$/AngularJs/app/sign-up/sign-up.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AngularJs/package.json" afterPath="$PROJECT_DIR$/AngularJs/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AngularJs/webpack.config.js" afterPath="$PROJECT_DIR$/AngularJs/webpack.config.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,108 +83,74 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="match-video-coll.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AngularJs/app/match-video-coll/match-video-coll.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-295">
-              <caret line="39" column="53" lean-forward="false" selection-start-line="39" selection-start-column="53" selection-end-line="39" selection-end-column="53" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="match-video-play.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AngularJs/app/match-video-coll/match-video-play.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="17" column="79" lean-forward="false" selection-start-line="17" selection-start-column="79" selection-end-line="17" selection-end-column="79" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="match-video-coll.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AngularJs/app/match-video-coll/match-video-coll.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="16" column="75" lean-forward="false" selection-start-line="16" selection-start-column="75" selection-end-line="16" selection-end-column="75" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AngularJs/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="22" column="4" lean-forward="false" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AngularJs/app/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="172" column="25" lean-forward="false" selection-start-line="172" selection-start-column="25" selection-end-line="172" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/AngularJs/app/build/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AngularJs/webpack.config.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="26" lean-forward="false" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="bower.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AngularJs/bower.json">
+        <entry file="file://$PROJECT_DIR$/AH-WX/bower.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state relative-caret-position="286">
+              <caret line="13" column="32" lean-forward="false" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="communication.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AngularJs/app/communication/communication.html">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AH-WX/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <state relative-caret-position="250">
+              <caret line="73" column="26" lean-forward="false" selection-start-line="73" selection-start-column="26" selection-end-line="73" selection-end-column="26" />
               <folding>
-                <element signature="n#style#0;n#span#0;n#p#1;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#2;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#3;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#4;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#5;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#6;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <marker date="1492506685774" expanded="true" signature="1293:1446" ph="..." />
+                <marker date="1492506685774" expanded="true" signature="1386:1414" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="competitor.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AngularJs/app/competitor/competitor.html">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AH-WX/app/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="10" column="23" lean-forward="false" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+            <state relative-caret-position="77">
+              <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="7" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="matchColl.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AH-WX/app/matchColl/matchColl.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="103">
+              <caret line="18" column="30" lean-forward="false" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="matchIntroduction.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AH-WX/app/matchIntroduction/matchIntroduction.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="858">
+              <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="news.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AH-WX/app/news/news.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="13" column="16" lean-forward="false" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="competitor.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AH-WX/app/competitor/competitor.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -156,6 +180,12 @@
       <find>sp-03.png</find>
       <find>&quot;&gt;&lt;/script&gt;</find>
       <find>require('</find>
+      <find>./resources/</find>
+      <find>.http://ool42cwl5.bkt.clouddn.com/</find>
+      <find>:</find>
+      <find>directive</find>
+      <find>ngRoute</find>
+      <find>when</find>
     </findStrings>
     <replaceStrings>
       <replace>home</replace>
@@ -169,7 +199,15 @@
       <replace>sp-03.png</replace>
       <replace>')</replace>
       <replace>require('./</replace>
+      <replace>:</replace>
+      <replace>http://ool42cwl5.bkt.clouddn.com/</replace>
+      <replace>state</replace>
     </replaceStrings>
+    <dirStrings>
+      <dir>D:\CXBIG\AngularJs</dir>
+      <dir>D:\CXBIG\AH-WX</dir>
+      <dir>D:\CXBIG\AH-WX\app</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -182,16 +220,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/AH-WX/app/resources/js/pub.js" />
         <option value="$PROJECT_DIR$/AH-WX/package.json" />
         <option value="$PROJECT_DIR$/AH-WX/app/resources/css/main.css" />
-        <option value="$PROJECT_DIR$/AH-WX/app/news/news.js" />
         <option value="$PROJECT_DIR$/AngularJs/bower.json" />
         <option value="$PROJECT_DIR$/AngularJs/app/home/home-pw.html" />
         <option value="$PROJECT_DIR$/AngularJs/app/home/home.html" />
         <option value="$PROJECT_DIR$/AngularJs/app/home/home.js" />
         <option value="$PROJECT_DIR$/AngularJs/app/competitor/competitor.html" />
-        <option value="$PROJECT_DIR$/AngularJs/app/guwenpw/pw_detail.html" />
         <option value="$PROJECT_DIR$/AngularJs/app/match-info-coll/match-info-coll.html" />
         <option value="$PROJECT_DIR$/AngularJs/app/match-notice/match-notice.html" />
         <option value="$PROJECT_DIR$/AngularJs/app/sign-up/sign-up.html" />
@@ -200,9 +235,6 @@
         <option value="$PROJECT_DIR$/AH-WX/app/competitor/competitor.html" />
         <option value="$PROJECT_DIR$/AH-WX/app/home/home.html" />
         <option value="$PROJECT_DIR$/AH-WX/app/index-async.html" />
-        <option value="$PROJECT_DIR$/AH-WX/app/index.html" />
-        <option value="$PROJECT_DIR$/AH-WX/app/matchColl/matchColl.html" />
-        <option value="$PROJECT_DIR$/AH-WX/app/matchColl/matchColl.js" />
         <option value="$PROJECT_DIR$/AngularJs/app/match-introduction/match-introduction.html" />
         <option value="$PROJECT_DIR$/AngularJs/app/match-introduction/match-introduction.js" />
         <option value="$PROJECT_DIR$/AngularJs/app/organization/organization.html" />
@@ -211,21 +243,34 @@
         <option value="$PROJECT_DIR$/AngularJs/app/media/media.html" />
         <option value="$PROJECT_DIR$/AngularJs/app/matchIntroduction/matchIntroduction.js" />
         <option value="$PROJECT_DIR$/AngularJs/app/matchIntroduction/matchIntroduction.html" />
-        <option value="$PROJECT_DIR$/AngularJs/app/guwenpw/guwenpw.html" />
         <option value="$PROJECT_DIR$/AngularJs/app/match-news/match-news1.html" />
         <option value="$PROJECT_DIR$/AngularJs/app/match-news/match-news.html" />
         <option value="$PROJECT_DIR$/AngularJs/app/match-news/match-news.js" />
-        <option value="$PROJECT_DIR$/AngularJs/app/app.css" />
         <option value="$PROJECT_DIR$/AngularJs/app/match-video-coll/match-video-template.html" />
-        <option value="$PROJECT_DIR$/AH-WX/app/matchColl/video-detail.html" />
         <option value="$PROJECT_DIR$/AngularJs/app/match-video-coll/match-video-coll.html" />
         <option value="$PROJECT_DIR$/AngularJs/app/match-video-coll/match-video-play.html" />
         <option value="$PROJECT_DIR$/AngularJs/app/match-video-coll/match-video-coll.js" />
         <option value="$PROJECT_DIR$/AngularJs/app/communication/communication.html" />
         <option value="$PROJECT_DIR$/AngularJs/package.json" />
         <option value="$PROJECT_DIR$/AngularJs/webpack.config.js" />
-        <option value="$PROJECT_DIR$/AngularJs/app/app.js" />
+        <option value="$PROJECT_DIR$/AngularJs/app/build/index.js" />
         <option value="$PROJECT_DIR$/AngularJs/app/index.html" />
+        <option value="$PROJECT_DIR$/AngularJs/app/app.css" />
+        <option value="$PROJECT_DIR$/AngularJs/app/app.js" />
+        <option value="$PROJECT_DIR$/AngularJs/app/guwenpw/pw_detail.html" />
+        <option value="$PROJECT_DIR$/AngularJs/app/common.css" />
+        <option value="$PROJECT_DIR$/AngularJs/app/guwenpw/guwenpw.html" />
+        <option value="$PROJECT_DIR$/AngularJs/app/guwenpw/guwenpw.js" />
+        <option value="$PROJECT_DIR$/AH-WX/app/matchColl/coll-matches/coll-corporation-conference.html" />
+        <option value="$PROJECT_DIR$/AH-WX/app/matchColl/matchColl.html" />
+        <option value="$PROJECT_DIR$/AH-WX/app/matchColl/matchCollVideo.html" />
+        <option value="$PROJECT_DIR$/AH-WX/app/matchColl/video-detail.html" />
+        <option value="$PROJECT_DIR$/AH-WX/bower.json" />
+        <option value="$PROJECT_DIR$/AH-WX/app/matchColl/matchColl.js" />
+        <option value="$PROJECT_DIR$/AH-WX/app/matchIntroduction/matchIntroduction.js" />
+        <option value="$PROJECT_DIR$/AH-WX/app/news/news.js" />
+        <option value="$PROJECT_DIR$/AH-WX/app/app.js" />
+        <option value="$PROJECT_DIR$/AH-WX/app/index.html" />
       </list>
     </option>
   </component>
@@ -242,7 +287,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
+    <option name="width" value="1924" />
     <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
@@ -262,7 +307,6 @@
     <panes>
       <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -325,28 +369,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="matchIntroduction" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CXBIG" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CXBIG" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AngularJs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="match-video-coll" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -369,7 +391,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="guests" />
+              <option name="myItemId" value="match-info-coll" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -391,7 +413,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
+              <option name="myItemId" value="guwenpw" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -413,29 +435,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="competitor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CXBIG" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CXBIG" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AngularJs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="communication" />
+              <option name="myItemId" value="bower_components" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -468,6 +468,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CXBIG" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CXBIG" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AH-WX" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="supportEnterprise" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -511,12 +533,149 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="news" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CXBIG" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CXBIG" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AH-WX" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="matchIntroduction" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CXBIG" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CXBIG" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AH-WX" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="matchColl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CXBIG" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CXBIG" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AH-WX" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="matchColl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coll-matches" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CXBIG" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CXBIG" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AH-WX" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CXBIG" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CXBIG" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AH-WX" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="competitor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CXBIG" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CXBIG" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AH-WX" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="apply" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -963,14 +1122,15 @@
       <workItem from="1491913612097" duration="3609000" />
       <workItem from="1491926700390" duration="12065000" />
       <workItem from="1492416555479" duration="1611000" />
+      <workItem from="1492499677418" duration="6945000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57184000" />
+    <option name="totallyTimeSpent" value="64129000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1924" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -981,27 +1141,27 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15191898" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15343347" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="JProfiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1015,131 +1175,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/AngularJs/app/home/home.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="45" lean-forward="true" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AngularJs/app/home/home-pw.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5914">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AngularJs/app/home/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="245" column="31" lean-forward="false" selection-start-line="245" selection-start-column="31" selection-end-line="245" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AngularJs/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="187">
-            <caret line="93" column="4" lean-forward="false" selection-start-line="93" selection-start-column="4" selection-end-line="93" selection-end-column="4" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AngularJs/app/guwenpw/pw_detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="16" column="23" lean-forward="false" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AngularJs/app/match-notice/match-notice.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="11" column="23" lean-forward="false" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AngularJs/app/sign-up/sign-up.html" />
-    <entry file="file://$PROJECT_DIR$/AngularJs/app/view1/view1.js" />
-    <entry file="file://$PROJECT_DIR$/AH-WX/app/competitor/competitor.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AH-WX/app/index-async.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="48" column="17" lean-forward="false" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AH-WX/app/matchColl/matchColl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AH-WX/app/home/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5">
-          <caret line="237" column="35" lean-forward="true" selection-start-line="237" selection-start-column="35" selection-end-line="237" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AngularJs/node_modules/bower/lib/node_modules/jsonify/lib/stringify.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="4" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AngularJs/app/match-introduction/match-introduction.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="3" selection-end-line="13" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AngularJs/app/match-info-coll/match-info-coll.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="23" lean-forward="false" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/resources/html5-schema/html5/block.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="84" column="16" lean-forward="false" selection-start-line="84" selection-start-column="16" selection-end-line="84" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AngularJs/app/guests/guests.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1056">
-          <caret line="48" column="6" lean-forward="false" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AngularJs/app/media/media.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AngularJs/app/support-enterprises/support-enterprises.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1157,14 +1196,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AngularJs/app/guwenpw/guwenpw.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AngularJs/app/match-introduction/match-introduction.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -1172,31 +1203,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AngularJs/app/guwenpw/guwenpw.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="40" lean-forward="false" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AngularJs/app/org-group/org-group.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="8" column="89" lean-forward="true" selection-start-line="8" selection-start-column="89" selection-end-line="8" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AH-WX/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="50" column="37" lean-forward="false" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AH-WX/app/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1242,14 +1252,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AngularJs/app/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2068">
-          <caret line="94" column="114" lean-forward="false" selection-start-line="94" selection-start-column="114" selection-end-line="94" selection-end-column="114" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AngularJs/app/resources/js/video5.18.4.js/js/video.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1265,31 +1267,97 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AH-WX/app/matchColl/matchCollVideo.html">
+    <entry file="file://$PROJECT_DIR$/AngularJs/app/communication/communication.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-38">
+        <state relative-caret-position="66">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#p#1;n#div#1;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#p#2;n#div#1;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#p#3;n#div#1;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#p#4;n#div#1;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#p#5;n#div#1;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#p#6;n#div#1;n#div#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AngularJs/app/competitor/competitor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="23" lean-forward="false" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AngularJs/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="29" column="66" lean-forward="true" selection-start-line="29" selection-start-column="66" selection-end-line="29" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AngularJs/app/guests/guests.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AH-WX/app/matchColl/matchColl.html">
+    <entry file="file://$PROJECT_DIR$/AngularJs/app/build/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="-12320">
+          <caret line="554" column="8" lean-forward="false" selection-start-line="554" selection-start-column="8" selection-end-line="554" selection-end-column="8" />
+          <folding>
+            <marker date="1492504049052" expanded="true" signature="19:233897" ph="[...]" />
+            <marker date="1492504049052" expanded="true" signature="233442:233445" ph="/*...*/" />
+            <marker date="1492504049052" expanded="true" signature="233446:233451" ph="/*...*/" />
+            <marker date="1492504049052" expanded="true" signature="233478:233895" ph="{...}" />
+            <marker date="1492504049052" expanded="true" signature="233569:233815" ph="[...]" />
+            <marker date="1492504049052" expanded="true" signature="233613:233814" ph="{...}" />
+            <marker date="1492504049052" expanded="true" signature="233668:233805" ph="{&quot;templateUrl&quot;: 'support-enterprises/support-enterprises.html'...}" />
+            <marker date="1492504049052" expanded="true" signature="233862:233884" ph="[...]" />
+            <marker date="1492504049052" expanded="true" signature="233874:233883" ph="{...}" />
+            <marker date="1492504049052" expanded="true" signature="233888:233893" ph="/*...*/" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AH-WX/app/matchColl/video-detail.html">
+    <entry file="file://$PROJECT_DIR$/AngularJs/app/app.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="4" column="58" lean-forward="false" selection-start-line="4" selection-start-column="58" selection-end-line="4" selection-end-column="58" />
+        <state relative-caret-position="438">
+          <caret line="183" column="27" lean-forward="true" selection-start-line="183" selection-start-column="27" selection-end-line="183" selection-end-column="27" />
+          <folding>
+            <marker date="1492502605991" expanded="true" signature="12562:12618" ph="{...}" />
+            <marker date="1492502605991" expanded="true" signature="12639:12667" ph="{...}" />
+            <marker date="1492502605991" expanded="true" signature="14391:14447" ph="{...}" />
+            <marker date="1492502605991" expanded="true" signature="14468:14496" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AngularJs/app/match-video-coll/match-video-play.html">
+    <entry file="file://$PROJECT_DIR$/AngularJs/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="79" lean-forward="false" selection-start-line="17" selection-start-column="79" selection-end-line="17" selection-end-column="79" />
+        <state relative-caret-position="352">
+          <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AngularJs/app/guwenpw/pw_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="34" lean-forward="true" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AngularJs/app/common.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="136" column="28" lean-forward="true" selection-start-line="136" selection-start-column="28" selection-end-line="136" selection-end-column="28" />
           <folding />
         </state>
       </provider>
@@ -1302,82 +1370,224 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AngularJs/app/communication/communication.html">
+    <entry file="file://$PROJECT_DIR$/AngularJs/app/guwenpw/guwenpw.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state relative-caret-position="198">
+          <caret line="9" column="95" lean-forward="false" selection-start-line="9" selection-start-column="95" selection-end-line="9" selection-end-column="95" />
           <folding>
-            <element signature="n#style#0;n#span#0;n#p#1;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#2;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#3;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#4;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#5;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#6;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AngularJs/app/competitor/competitor.html">
+    <entry file="file://$PROJECT_DIR$/AngularJs/app/guwenpw/guwenpw.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="10" column="23" lean-forward="false" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        <state relative-caret-position="264">
+          <caret line="54" column="43" lean-forward="false" selection-start-line="54" selection-start-column="43" selection-end-line="54" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AngularJs/bower.json">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/resources/html5-schema/html5/core-scripting.rnc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state relative-caret-position="264">
+          <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AngularJs/package.json">
+    <entry file="file://$PROJECT_DIR$/AngularJs/app/match-info-coll/match-info-coll.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="22" column="4" lean-forward="false" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AngularJs/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="26" lean-forward="false" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AngularJs/app/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="31" lean-forward="true" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AngularJs/app/match-video-coll/match-video-coll.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-295">
+        <state relative-caret-position="352">
           <caret line="39" column="53" lean-forward="false" selection-start-line="39" selection-start-column="53" selection-end-line="39" selection-end-column="53" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AngularJs/app/index.html">
+    <entry file="file://$PROJECT_DIR$/AngularJs/app/match-video-coll/match-video-play.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="172" column="25" lean-forward="false" selection-start-line="172" selection-start-column="25" selection-end-line="172" selection-end-column="25" />
+        <state relative-caret-position="374">
+          <caret line="17" column="79" lean-forward="false" selection-start-line="17" selection-start-column="79" selection-end-line="17" selection-end-column="79" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AngularJs/app/build/index.js">
+    <entry file="file://$PROJECT_DIR$/AH-WX/app/matchColl/coll-matches/coll-corporation-conference.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AH-WX/app/matchColl/matchColl.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AH-WX/app/matchColl/matchCollVideo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AH-WX/app/matchColl/video-detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AH-WX/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-330">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AngularJs/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AngularJs/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="4" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AngularJs/app/bower_components/html5-boilerplate/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AngularJs/app/bower_components/html5-boilerplate/.bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AH-WX/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="32" lean-forward="false" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AH-WX/app/apply/apply.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="11" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="8" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AH-WX/app/competitor/competitor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AH-WX/app/competitor/competitor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="7" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AH-WX/app/home/home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="42" lean-forward="true" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AH-WX/app/matchColl/matchColl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="18" column="30" lean-forward="false" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AH-WX/app/supportEnterprise/supportEnterprise.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AngularJs/app/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1601">
+          <caret line="76" column="53" lean-forward="false" selection-start-line="76" selection-start-column="53" selection-end-line="76" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AH-WX/app/news/news.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="16" lean-forward="false" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AH-WX/app/matchIntroduction/matchIntroduction.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="858">
+          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AH-WX/app/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="7" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AH-WX/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="73" column="26" lean-forward="false" selection-start-line="73" selection-start-column="26" selection-end-line="73" selection-end-column="26" />
+          <folding>
+            <marker date="1492506685774" expanded="true" signature="1293:1446" ph="..." />
+            <marker date="1492506685774" expanded="true" signature="1386:1414" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

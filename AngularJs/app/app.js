@@ -1,48 +1,30 @@
 'use strict';
 
-    require('./bower_components/angular/angular.js')
-    require('./bower_components/angular-route/angular-route.js')
-    require('./bower_components/angular-ui-router/release/angular-ui-router.js')
-    require('./view1/view1.js')
-    require('./view2/view2.js')
+    require('./bower_components/angular/angular.min.js')
+    require('./bower_components/angular-route/angular-route.min.js')
+    require('./bower_components/angular-ui-router/release/angular-ui-router.min.js')
     require('./components/version/version.js')
     require('./components/version/version-directive.js')
     require('./components/version/interpolate-filter.js')
     require('./home/home.js')
-    require('./match-introduction/match-introduction.js')
     require('./matchIntroduction/matchIntroduction.js')
-    require('./organization/organization.js')
-    require('./org-group/org-group.js')
-    require('./guests/guests.js')
     require('./guwenpw/guwenpw.js')
-    require('./media/media.js')
-    require('./communication/communication.js')
     require('./match-info-coll/match-info-coll.js')
     require('./match-video-coll/match-video-coll.js')
-    require('./competitor/competitor.js')
     require('./match-news/match-news.js')
     require('./match-notice/match-notice.js')
     require('./support-enterprises/support-enterprises.js')
 // Declare app level module which depends on views, and components
 angular.module('myApp', [
   'ui.router',
-  'myApp.view1',
   'myApp.home',
-  'myApp.match-introduction',
   'myApp.matchIntroduction',
-  'myApp.organization',
-  'myApp.org-group',
-  'myApp.guests',
-  'myApp.guwenpw',
-  'myApp.media',
-  'myApp.communication',
   'myApp.match-info-coll',
   'myApp.match-video-coll',
-  'myApp.competitor',
   'myApp.match-news',
+  'myApp.guwenpw',
   'myApp.match-notice',
   'myApp.support-enterprises',
-  'myApp.view2',
   'myApp.version'
 
 
@@ -58,11 +40,11 @@ config(['$locationProvider', '$stateProvider','$urlRouterProvider', function($lo
             }
         }
     }).state("pw_detail",{
-        url: '/pw_detail',
+        url: '/pw_detail/:index',
         views: {
             'index': {
                 templateUrl: 'guwenpw/pw_detail.html',
-                controller: 'guwenpwCtrl', //也可以写成HomeController as home
+                controller: 'guwenpwCtrl',
                 controllerAs: 'guwenpw'
             }
         }
@@ -160,7 +142,6 @@ config(['$locationProvider', '$stateProvider','$urlRouterProvider', function($lo
         views: {
             'index': {
                 templateUrl: "competitor/competitor.html",
-                controller: 'competitorCtrl',
             }
         }
     }).state('match-video-coll',{
@@ -179,7 +160,21 @@ config(['$locationProvider', '$stateProvider','$urlRouterProvider', function($lo
                 controller: 'match-video-collCtrl',
             }
         }
-    })
+    }).state('supportEnterprise', {
+            url:"/supportEnterprise",
+            views: {
+                'index': {
+                    templateUrl: 'supportEnterprise/supportEnterprise.html',
+                }
+            }
+        }).state('apply', {
+            url:"/apply",
+            views: {
+                'index': {
+                    templateUrl: 'apply/apply.html',
+                }
+            }
+        })
     $urlRouterProvider.otherwise("/home")
 }]).controller("switchActive",function ($scope) {
     $scope.toggle = function () {

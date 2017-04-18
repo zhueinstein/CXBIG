@@ -1,18 +1,22 @@
 'use strict';
 
-const  app = angular.module('myApp.matchColl', ['ngRoute']);
+var  app = angular.module('myApp.matchColl', ['ui.router']);
 
-    app.config(['$routeProvider', function($routeProvider) {
-        $routeProvider.when('/matchColl', {
+    app.config(['$stateProvider', function($stateProvider) {
+        $stateProvider.state('matchColl', {
+            url:"/matchColl",
             templateUrl: 'matchColl/matchColl.html',
             controller: 'MatchCollCtrl'
-        }).when('/coll-corporation-conference', {
+        }).state('coll-corporation-conference', {
+            url:"/coll-corporation-conference",
             templateUrl: 'matchColl/coll-matches/coll-corporation-conference.html',
             controller: 'MatchCollCtrl'
-        }).when('/matchCollVideo', {
+        }).state('matchCollVideo', {
+            url:"/matchCollVideo",
             templateUrl: 'matchColl/matchCollVideo.html',
             controller: 'MatchCollCtrl'
-        }).when('/video-detail', {
+        }).state('video-detail', {
+            url:"/video-detail",
             templateUrl: 'matchColl/video-detail.html',
             controller: 'MatchCollCtrl'
         });
