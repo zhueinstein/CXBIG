@@ -13,22 +13,24 @@
     </div>
     <div class="fr">
         <div class="title fix">
-            <a href="#/home">首页</a> &gt; <a href="#/match-info-coll">赛事集锦</a> &gt; <a href="#/match-video-coll" class="on">精彩视频</a>
+            <a href="#/home">首页</a> &gt; <a href="#/match-info-coll">赛事集锦</a> &gt; <a href="#/match-video-coll"
+                                                                                      class="on">精彩视频</a>
         </div>
-        <div class="m" style="text-align: center;margin: 50px 50px 50px 150px">
-            <video id="my-video" class="video-js" controls preload="auto" width="640" height="300"
-                   poster="MY_VIDEO_POSTER.jpg" data-setup="{}">
+        <div class="m" style="text-align: center;vertical-align: middle;margin: 50px auto 50px auto;">
+            <video id="my-video" class="video-js" controls preload="auto" width="640" height="275" style="margin: 0 auto;"
+                   poster="{{playPoster}}" data-setup="{}">
                 <source src="{{playUrl}}" type="video/mp4">
+                <source src="{{playUrl}}" type="video/webm">
+                <source src="{{playUrl}}" type="video/ogg">
                 <p class="vjs-no-js">
                     To view this video please enable JavaScript, and consider upgrading to a web browser that
                     <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
                 </p>
             </video>
-            <div>{{playTitle}}</div>
-            <!--<script src="http://vjs.zencdn.net/5.18.4/video.min.js"></script>-->
+            <div class = "pointer playTitle">{{playTitle
+                }}</div>
             <script type="text/javascript">
-                var myPlayer = videojs('my-video');
-                videojs("my-video").ready(function(){
+                videojs("my-video").ready(function () {
                     var myPlayer = this;
                     myPlayer.play();
                 });

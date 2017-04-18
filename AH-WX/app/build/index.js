@@ -550,7 +550,7 @@ webpackJsonp([0,1],[
 
 	var  news = angular.module('myApp.news', ['ui.router']);
 
-	news.config(['$stateProvider', function($stateProvider) {
+	    news.config(['$stateProvider', function($stateProvider) {
 	        $stateProvider.state('news', {
 	            url:"/news",
 	            templateUrl: 'news/news.html',

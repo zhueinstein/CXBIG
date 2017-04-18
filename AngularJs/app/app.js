@@ -14,6 +14,7 @@
     require('./match-news/match-news.js')
     require('./match-notice/match-notice.js')
     require('./support-enterprises/support-enterprises.js')
+
 // Declare app level module which depends on views, and components
 angular.module('myApp', [
   'ui.router',

@@ -1,15 +1,15 @@
 <!-- 赛事介绍内容 顾问评委-->
 <div class="container auto main_ssjs_02 fix">
-    <div class="fl tc">
+    <div class="fl tc pointer">
         <h4>赛事简介</h4>
         <ul>
-            <li><a href="#/match-introduction">赛事介绍</a></li>
-            <li><a href="#/organization">组织机构</a></li>
-            <li ><a href="#/org-group">组委会成员</a></li>
-            <li ><a href="#/guests">委员及嘉宾</a></li>
-            <li class="on"><a href="#/guwenpw" >顾问及评委</a></li>
-            <li ><a href="#/media" >支持媒体</a></li>
-            <li ><a href="#/communication" >联系方式</a></li>
+            <li><a ng-click="goOutWh('match-introduction')">赛事介绍</a></li>
+            <li><a ng-click="goOutWh('organization')">组织机构</a></li>
+            <li ><a ng-click="goOutWh('org-group')">组委会成员</a></li>
+            <li ><a ng-click="goOutWh('guests')">委员及嘉宾</a></li>
+            <li class="on"><a ng-click="goOutWh('guwenpw')" >顾问及评委</a></li>
+            <li ><a ng-click="goOutWh('media')">支持媒体</a></li>
+            <li ><a ng-click="goOutWh('communication')" >联系方式</a></li>
         </ul>
     </div>
     <div class="fr">
@@ -18,6 +18,9 @@
         </div>
         <div class="fenye tc fix">
         </div>
-
+        <div class="pw_detail">
+            <img src="{{detailPic}}">
+            <div style="font-size: 16px; margin-top: 5px;">{{detailTitle}}</div>
+        </div>
     </div>
 </div>

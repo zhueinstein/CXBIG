@@ -112,6 +112,10 @@ ul,ol{
 .main_ssjs_02 .bottom>span>.wd{width:698px;}
 .main_ssjs_02 .bottom>span>ul li i{font-style:normal;margin-left:23px;float:right; text-align:left;width:80px;*margin-top:-25px}
 .main_ssjs_02 .bottom>span>ul {float:left;margin-right:56px; min-width:159px; width:159px;}
+.main_ssjs_02 .pw_detail {min-height: 370px;text-align: center;}
+.main_ssjs_02 .pw_detail img {margin-top: 20px; width: 200px; height: 200px;}
+
+
 
 /*首页-活动资讯*/
 .main_hdzx{margin-top:51px;}
@@ -182,12 +186,12 @@ ul,ol{
 
 /* sildes css begin */
 #sildes{position:relative;}
-.control {width:1108px;height:859px; padding:67px 0px 0px 92px; background:url(../images/23_h.png);display: block;position:absolute;top:0;left:0;overflow: hidden;}
+.control {width:1108px;height:859px; padding:67px 0px 0px 92px; background:url(http://ool42cwl5.bkt.clouddn.com/images/23_h.png);display: block;position:absolute;top:0;left:0;overflow: hidden;}
 .change li{width:874px;height:803px;overflow: hidden;text-align:center;}
 
 /* 图片垂直居中,不是很准确 */
-.change li .imgWrap{display: table-cell ;width:731px;height:803px;vertical-align: middle;cursor:pointer;*font-size: 500px;}
-.change li img{max-width:731px;max-height:803px;width: expression(this.width > 900 && this.width > this.height ? 900 :true); height:expression(this.height >900 ? 900: true);vertical-align:middle; overflow:hidden;}
+/*.change li .imgWrap{display: table-cell ;width:731px;height:803px;vertical-align: middle;cursor:pointer;*font-size: 500px;}*/
+/*.change li img{max-width:731px;max-height:803px;width: expression(this.width > 900 && this.width > this.height ? 900 :true); height:expression(this.height >900 ? 900: true);vertical-align:middle; overflow:hidden;}*/
 
 /* 描述部分 */
 .change li .textDesc{width:731px;height:113px;position:absolute;left:0;bottom:0px;text-align:left;overflow: hidden;}
@@ -208,16 +212,16 @@ ul,ol{
 .thumbWrap ul li{/*width:235px;height:258px;*/text-align:center;overflow: hidden;padding-bottom:14px;}
 .thumbWrap ul li div{display: table-cell ;width:138px;height:89px;vertical-align: middle;cursor:pointer;*font-size: 79px;}
 
-.thumbWrap ul li img {max-width:235px; max-height:258px; width: expression(this.width > 235 && this.width > this.height ? 235 :true); height:expression(this.height >258 ? 258: true);vertical-align:middle; overflow:hidden;}
+.thumbWrap ul li img {max-width:235px; max-height:258px; width: expression(// this.width > 235 && this.width > this.height ? 235 :true); height:expression(this.height >258 ? 258: true);vertical-align:middle; overflow:hidden;}
 
-.thumbWrap ul li.cur{background:url(../images-thumb/curBg.gif) no-repeat;}
+/*.thumbWrap ul li.cur{background:url(../images-thumb/curBg.gif) no-repeat;}*/
 
 /* 缩图按钮 */
 .thumbPrev,.thumbNext{width:140px;height:39px;text-align:center;position:absolute;color:#000;z-index: 9; outline:none;}
 .thumbPrev span, .thumbNext span{display: none;}
 
-.thumbPrev{left:82px;top:39px;background:url(../images/sjt.png) no-repeat;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,sizingMethod=crop,src="../images-thumb/Yprev.png") ; _background:none;}
-.thumbNext{left:82px;bottom:39px;background:url(../images/xjt.png) no-repeat;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,sizingMethod=crop,src="../images-thumb/Ynext.png") ; _background:none;}
+/*.thumbPrev{left:82px;top:39px;background:url(../images/sjt.png) no-repeat;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,sizingMethod=crop,src="../images-thumb/Yprev.png") ; _background:none;}*/
+/*.thumbNext{left:82px;bottom:39px;background:url(../images/xjt.png) no-repeat;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,sizingMethod=crop,src="../images-thumb/Ynext.png") ; _background:none;}*/
 
 /*footer*/
 .footer{background:#AD1619 url('http://ool42cwl5.bkt.clouddn.com/images/in-15.png');position:relative;}

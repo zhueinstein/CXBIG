@@ -40,5 +40,6 @@ angular.module('myApp.match-video-coll', ['ui.router'])
         if($stateParams.id){
             $scope.playUrl = ($scope.videos[$stateParams.id]).url;
             $scope.playTitle = ($scope.videos[$stateParams.id]).title;
+            $scope.playPoster = ($scope.videos[$stateParams.id]).img;
         }
     });
