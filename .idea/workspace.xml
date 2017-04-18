@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f38d1ab8-377e-4b4b-8550-b9756bfcd095" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AngularJs/app/app.css" afterPath="$PROJECT_DIR$/AngularJs/app/app.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AngularJs/app/index.html" afterPath="$PROJECT_DIR$/AngularJs/app/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AngularJs/app/main.css" afterPath="$PROJECT_DIR$/AngularJs/app/main.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,16 +21,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="match-video-coll.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AngularJs/app/match-video-coll/match-video-coll.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="22" column="35" lean-forward="true" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="match-news2.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AngularJs/app/match-news/match-news2.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -67,14 +58,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AngularJs/app/app.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="671">
+            <state relative-caret-position="3245">
               <caret line="249" column="70" lean-forward="false" selection-start-line="249" selection-start-column="70" selection-end-line="249" selection-end-column="70" />
               <folding>
                 <marker date="1492487465800" expanded="true" signature="14574:14633" ph="{...}" />
                 <marker date="1492487465800" expanded="true" signature="14654:14682" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AngularJs/app/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="528">
+              <caret line="24" column="62" lean-forward="true" selection-start-line="24" selection-start-column="62" selection-end-line="24" selection-end-column="62" />
+              <folding>
+                <element signature="n#style#0;n#li#2;n#ul#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -161,6 +164,7 @@
       <find>competitor</find>
       <find>&quot;&gt;</find>
       <find>../resources/</find>
+      <find>./resources/</find>
     </findStrings>
     <replaceStrings>
       <replace>home</replace>
@@ -179,6 +183,7 @@
     </replaceStrings>
     <dirStrings>
       <dir>D:\CXBIG\AngularJs\app</dir>
+      <dir>D:\CXBIG\AngularJs</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -232,7 +237,6 @@
         <option value="$PROJECT_DIR$/AngularJs/webpack.config.js" />
         <option value="$PROJECT_DIR$/AngularJs/app/app.js" />
         <option value="$PROJECT_DIR$/AngularJs/bower.json" />
-        <option value="$PROJECT_DIR$/AngularJs/app/index.html" />
         <option value="$PROJECT_DIR$/AngularJs/package.json" />
         <option value="$PROJECT_DIR$/AngularJs/app/build/index.js" />
         <option value="$PROJECT_DIR$/AngularJs/app/guwenpw/guwenpw.js" />
@@ -243,6 +247,7 @@
         <option value="$PROJECT_DIR$/AngularJs/app/competitor/competitor.html" />
         <option value="$PROJECT_DIR$/AngularJs/app/guwenpw/guwenpw.html" />
         <option value="$PROJECT_DIR$/AngularJs/app/app.css" />
+        <option value="$PROJECT_DIR$/AngularJs/app/index.html" />
       </list>
     </option>
   </component>
@@ -1147,12 +1152,12 @@
       <workItem from="1491382332066" duration="27180000" />
       <workItem from="1491913612097" duration="3609000" />
       <workItem from="1491926700390" duration="12065000" />
-      <workItem from="1492416555479" duration="15066000" />
+      <workItem from="1492416555479" duration="15229000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70639000" />
+    <option name="totallyTimeSpent" value="70802000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1502,17 +1507,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AngularJs/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="122" column="73" lean-forward="false" selection-start-line="122" selection-start-column="73" selection-end-line="122" selection-end-column="73" />
-          <folding>
-            <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AngularJs/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
@@ -1626,11 +1620,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AngularJs/app/app.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="671">
+        <state relative-caret-position="3245">
           <caret line="249" column="70" lean-forward="false" selection-start-line="249" selection-start-column="70" selection-end-line="249" selection-end-column="70" />
           <folding>
             <marker date="1492487465800" expanded="true" signature="14574:14633" ph="{...}" />
             <marker date="1492487465800" expanded="true" signature="14654:14682" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AngularJs/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="24" column="62" lean-forward="true" selection-start-line="24" selection-start-column="62" selection-end-line="24" selection-end-column="62" />
+          <folding>
+            <element signature="n#style#0;n#li#2;n#ul#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
