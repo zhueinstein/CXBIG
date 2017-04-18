@@ -1,9 +1,18 @@
 var webpack = require('webpack');
+var CompressionWebpackPlugin = require('compression-webpack-plugin');
 var commonsPlugin = new webpack.optimize.CommonsChunkPlugin('common.js');
-
+var CompressionWebpackPlugin = new CompressionWebpackPlugin({ //gzip 压缩
+    asset: '[path].gz[query]',
+    algorithm: 'gzip',
+    test: new RegExp(
+        '\\.(js|css)$'    //压缩 js 与 css
+    ),
+    threshold: 10240,
+    minRatio: 0.8
+})
 module.exports = {
     //插件项
-    plugins: [commonsPlugin],
+    plugins: [commonsPlugin, CompressionWebpackPlugin ],
     //页面入口文件配置
     entry: {
         index : './app/app.js'
