@@ -1,0 +1,35 @@
+{
+  "name": "SuperSlide",
+  "main": "SuperSlide.js",
+  "authors": [
+    "webteam@forepoint.co.uk"
+  ],
+  "description": "A jQuery Slider plugin built to be responsive. Has the options to auto cycle, pagination, navigation & duration",
+  "keywords": [
+    "Slider",
+    "jQuery",
+    "CSS3",
+    "HTML5",
+    "Frontend",
+    "Javascript",
+    "Media"
+  ],
+  "license": "MIT",
+  "homepage": "http://mintuz.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "f7187ad6a1",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "f7187ad6a13639be1fc94d8c539c5144bc52290c"
+  },
+  "_source": "https://github.com/forepoint/JS-SuperSlide.git",
+  "_target": "*",
+  "_originalSource": "SuperSlide"
+}

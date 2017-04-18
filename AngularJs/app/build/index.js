@@ -18,6 +18,7 @@ webpackJsonp([0,1],[
 	    __webpack_require__(12)
 	    __webpack_require__(13)
 	    __webpack_require__(14)
+
 	// Declare app level module which depends on views, and components
 	angular.module('myApp', [
 	  'ui.router',
