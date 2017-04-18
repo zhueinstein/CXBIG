@@ -18,9 +18,11 @@ var  news = angular.module('myApp.news', ['ui.router']);
         });
     }])
 
-    .controller('NewsCtrl', [function() {
+    .controller('NewsCtrl', function($anchorScroll) {
+        $location.hash('top');
+        $anchorScroll();
 
-    }]);
+    });
 news.directive("topOfTheViewOne", function () {
         return{
             template:'<div class="ssjj_s1 tc mt40 fix pl15"><a href="#/news" class="on">赛事新闻</a><a' +
