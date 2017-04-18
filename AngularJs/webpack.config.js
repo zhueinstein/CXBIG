@@ -32,7 +32,7 @@ module.exports = {
     },
     //其它解决方案配置
     resolve: {
-        root: 'E:/CXBIG/AnglarJs/app', //绝对路径
+        root: 'E:/CXBIG/AH-WX/app', //绝对路径
         extensions: ['', '.js', '.json', '.scss'],
         alias: {
             AppStore : 'js/stores/AppStores.js',
