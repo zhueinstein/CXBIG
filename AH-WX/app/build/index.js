@@ -14,12 +14,14 @@ webpackJsonp([0,1],[
 	    __webpack_require__(7)
 	    __webpack_require__(8)
 	    __webpack_require__(9)
+	    __webpack_require__(10)
 	// Declare app level module which depends on views, and components
 	angular.module('myApp', [
 	  'ui.router',
 	  'myApp.matchIntroduction',
 	  'myApp.matchColl',
 	  'myApp.news',
+	  'myApp.apply',
 	  'myApp.version'
 	]).
 	config(['$locationProvider', '$stateProvider','$urlRouterProvider', function($locationProvider, $stateProvider,$urlRouterProvider) {
@@ -626,6 +628,45 @@ webpackJsonp([0,1],[
 
 	'use strict';
 
+	var  news = angular.module('myApp.apply', ['ui.router'])
+
+	    .controller('ApplyCtrl', function($location, $anchorScroll, $scope, $http) {
+	       $scope.user = {name: "朱伟峰",
+	        sex
+	        :
+	        "男",
+	        telephone
+	        :
+	        "15210976357",
+	        address
+	        :
+	        "河南省商丘市夏邑县",
+	        group
+	        :
+	        "青年组"
+	    }
+
+	    $scope.submit = function () {
+	           console.log($scope.user)
+	        $http({
+	            method: 'GET',
+	            url: '/someUrl'
+	        }).then(function successCallback(response) {
+	            // this callback will be called asynchronously
+	            // when the response is available
+	        }, function errorCallback(response) {
+	            console.log($scope.user)
+	        });
+	    }
+	    });
+
+
+/***/ }),
+/* 8 */
+/***/ (function(module, exports) {
+
+	'use strict';
+
 	angular.module('myApp.version', [
 	  'myApp.version.interpolate-filter',
 	  'myApp.version.version-directive'
@@ -635,7 +676,7 @@ webpackJsonp([0,1],[
 
 
 /***/ }),
-/* 8 */
+/* 9 */
 /***/ (function(module, exports) {
 
 	'use strict';
@@ -650,7 +691,7 @@ webpackJsonp([0,1],[
 
 
 /***/ }),
-/* 9 */
+/* 10 */
 /***/ (function(module, exports) {
 
 	'use strict';
