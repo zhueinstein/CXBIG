@@ -52,7 +52,7 @@ matchIntroduction.config(['$stateProvider', function($stateProvider) {
             {title:"刘秉义 国家一级演员 著名歌唱...",detail:"刘秉义 国家一级演员 著名歌唱家",pic:"../resources/images/585518558971c.jpg",url:"#/pw_detail",shows:false},
             {title:"姜嘉锵 国家一级演员 著名歌唱...",detail:"姜嘉锵 国家一级演员 著名歌唱家",pic:"../resources/images/585d5af21927b.jpg",url:"#/pw_detail",shows:false},
             {title:"江平  著名国家一级导演  中...",detail:"江平  著名国家一级导演  中国广播艺术团党委书...",pic:"../resources/images/5859153344d53.jpg",url:"#/pw_detail",shows:false},
-            {title:"于淑珍 国家一级演员 著名歌唱...",detail:"于淑珍 国家一级演员 著名歌唱家",pic:"../resources/images/5855186ea800e.jpg",url:"#/pw_detail",shows:false},
+            {title:"于淑珍 国家一级演员 著名歌唱...",detail:"于淑珍 国家一级演员 著名歌唱家",pic:"../resources/images/5855186ea800e.JPG",url:"#/pw_detail",shows:false},
             {title:"蒋大为 国家一级演员 著名歌唱...",detail:"蒋大为 国家一级演员 著名歌唱家",pic:"../resources/images/585d2a3282372.jpg",url:"#/pw_detail",shows:false},
             {title:"耿莲凤 国家一级演员 著名歌唱...",detail:"耿莲凤 国家一级演员 著名歌唱家",pic:"../resources/images/58551885e09f5.jpg",url:"#/pw_detail",shows:false},
             {title:"姚明 著名国家一级作曲家",detail:"姚明 著名国家一级作曲家",pic:"../resources/images/585d1a0388973.jpg",url:"#/pw_detail",shows:false},
