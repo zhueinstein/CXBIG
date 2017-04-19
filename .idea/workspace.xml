@@ -2,26 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f38d1ab8-377e-4b4b-8550-b9756bfcd095" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AH-WX/app/resources/images/ahgsdskq.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AH-WX/app/matchIntroduction/consultingAndJudges/consultingAndJudgesDetail.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AH-WX/css/jiathis_share.css" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AH-WX/app/build/index.js.gz" afterPath="$PROJECT_DIR$/AH-WX/app/build/index.js.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AH-WX/app/resources/images/wxewm.jpg" afterPath="$PROJECT_DIR$/AH-WX/app/resources/images/wxewm.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AH-WX/app/app.js" afterPath="$PROJECT_DIR$/AH-WX/app/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AH-WX/app/apply/apply.html" afterPath="$PROJECT_DIR$/AH-WX/app/apply/apply.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AH-WX/app/build/index.js" afterPath="$PROJECT_DIR$/AH-WX/app/build/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AH-WX/app/home/home.html" afterPath="$PROJECT_DIR$/AH-WX/app/home/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AH-WX/app/index.html" afterPath="$PROJECT_DIR$/AH-WX/app/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AH-WX/app/matchColl/matchColl.html" afterPath="$PROJECT_DIR$/AH-WX/app/matchColl/matchColl.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AH-WX/app/matchColl/matchColl.js" afterPath="$PROJECT_DIR$/AH-WX/app/matchColl/matchColl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AH-WX/app/matchColl/matchCollVideo.html" afterPath="$PROJECT_DIR$/AH-WX/app/matchColl/matchCollVideo.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AH-WX/app/matchColl/video-detail.html" afterPath="$PROJECT_DIR$/AH-WX/app/matchColl/video-detail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AH-WX/app/matchIntroduction/consultingAndJudges/consultingAndJudges.html" afterPath="$PROJECT_DIR$/AH-WX/app/matchIntroduction/consultingAndJudges/consultingAndJudges.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AH-WX/app/matchIntroduction/matchIntroduction.js" afterPath="$PROJECT_DIR$/AH-WX/app/matchIntroduction/matchIntroduction.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AH-WX/app/news/news.js" afterPath="$PROJECT_DIR$/AH-WX/app/news/news.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AH-WX/app/resources/css/common.css" afterPath="$PROJECT_DIR$/AH-WX/app/resources/css/common.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AngularJs/app/apply/apply.html" afterPath="$PROJECT_DIR$/AngularJs/app/apply/apply.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AH-WX/app/matchIntroduction/contactUs/contactUs.html" afterPath="$PROJECT_DIR$/AH-WX/app/matchIntroduction/contactUs/contactUs.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -59,21 +42,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="apply.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="apply.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AH-WX/app/apply/apply.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="45" lean-forward="false" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
+            <state relative-caret-position="176">
+              <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AH-WX/app/app.js">
+      <file leaf-file-name="contactUs.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AH-WX/app/matchIntroduction/contactUs/contactUs.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="25" column="26" lean-forward="true" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+            <state relative-caret-position="264">
+              <caret line="12" column="50" lean-forward="false" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -82,8 +65,8 @@
       <file leaf-file-name="consultingAndJudges.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AH-WX/app/matchIntroduction/consultingAndJudges/consultingAndJudges.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="264">
+              <caret line="12" column="48" lean-forward="false" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -176,6 +159,7 @@
       <find>when</find>
       <find>&quot;&gt;&lt;/script&gt;</find>
       <find>')</find>
+      <find>style=&quot;width: 200px;&quot;</find>
     </findStrings>
     <replaceStrings>
       <replace>home</replace>
@@ -211,7 +195,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/AngularJs/app/competitor/competitor.html" />
         <option value="$PROJECT_DIR$/AngularJs/app/match-info-coll/match-info-coll.html" />
         <option value="$PROJECT_DIR$/AngularJs/app/match-notice/match-notice.html" />
         <option value="$PROJECT_DIR$/AngularJs/app/sign-up/sign-up.html" />
@@ -262,6 +245,7 @@
         <option value="$PROJECT_DIR$/AH-WX/app/matchIntroduction/consultingAndJudges/consultingAndJudgesDetail.html" />
         <option value="$PROJECT_DIR$/AH-WX/package.json" />
         <option value="$PROJECT_DIR$/AH-WX/app/apply/apply.html" />
+        <option value="$PROJECT_DIR$/AH-WX/app/matchIntroduction/contactUs/contactUs.html" />
       </list>
     </option>
   </component>
@@ -508,6 +492,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="matchIntroduction" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CXBIG" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CXBIG" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AH-WX" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="matchIntroduction" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="contactUs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1115,12 +1125,12 @@
       <workItem from="1492416555479" duration="1611000" />
       <workItem from="1492499677418" duration="8410000" />
       <workItem from="1492509078007" duration="11000" />
-      <workItem from="1492567036763" duration="12981000" />
+      <workItem from="1492567036763" duration="13870000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79414000" />
+    <option name="totallyTimeSpent" value="80303000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1168,13 +1178,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/AngularJs/app/competitor/competitor.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="23" lean-forward="false" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AngularJs/app/guests/guests.js" />
     <entry file="file://$PROJECT_DIR$/AngularJs/app/build/index.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -1474,14 +1477,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AH-WX/app/matchIntroduction/consultingAndJudges/consultingAndJudges.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AH-WX/app/resources/css/common.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -1538,8 +1533,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AH-WX/app/apply/apply.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="45" lean-forward="false" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
+        <state relative-caret-position="176">
+          <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AH-WX/app/matchIntroduction/consultingAndJudges/consultingAndJudges.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="48" lean-forward="false" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AH-WX/app/matchIntroduction/contactUs/contactUs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="50" lean-forward="false" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
           <folding />
         </state>
       </provider>
