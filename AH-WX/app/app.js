@@ -1,7 +1,7 @@
 'use strict';
 
 
-require('./bower_components/angular/angular.min.js')
+    require('./bower_components/angular/angular.min.js')
     require('./bower_components/angular-route/angular-route.min.js')
     require('./bower_components/angular-ui-router/release/angular-ui-router.min.js')
     require('./matchIntroduction/matchIntroduction.js')
@@ -28,6 +28,7 @@ config(['$locationProvider', '$stateProvider','$urlRouterProvider', function($lo
     }).state('home', {
         url:"/home",
         templateUrl: 'home/home.html',
+        controller:"NewsCtrl"
     }).state('supportEnterprise', {
         url:"/supportEnterprise",
         templateUrl: 'supportEnterprise/supportEnterprise.html',

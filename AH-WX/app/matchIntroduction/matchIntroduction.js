@@ -31,14 +31,14 @@ matchIntroduction.config(['$stateProvider', function($stateProvider) {
             url:"/committeeMember",
             templateUrl: 'matchIntroduction/committeeMember/committeeMember.html',
             controller: 'MatchIntroductionCtrl'
-        }).state('/introduction', {
-            url:"/introduction",
-            templateUrl: 'matchIntroduction/introduction.html',
+        }).state('consultingAndJudgesDetail', {
+            url:"/consultingAndJudgesDetail/:id",
+            templateUrl: 'matchIntroduction/consultingAndJudges/consultingAndJudgesDetail.html',
             controller: 'MatchIntroductionCtrl'
         });
     }])
 
-    .controller('MatchIntroductionCtrl', function($scope) {
+    .controller('MatchIntroductionCtrl', function($scope, $state, $stateParams) {
         $scope.pws = [
             {title:"郭兰英  国家一级演员 著名歌...",detail:"郭兰英  国家一级演员 著名歌唱家",pic:"../resources/images/585d310a66cd9.jpg",url:"#/pw_detail",shows:false},
             {title:"邓玉华  国家一级演员  著名...",detail:"邓玉华  国家一级演员  著名歌唱家",pic:"../resources/images/585516c707b80.jpg",url:"#/pw_detail",shows:false},
@@ -86,5 +86,16 @@ matchIntroduction.config(['$stateProvider', function($stateProvider) {
             {name:"支持媒体",target:"#/supportMedia",on:""},
             {name:"联系方式",target:"#/contactUs",on:""}
         ];
+
+        if($stateParams.id){
+            $scope.currentPic = $scope.pws[$stateParams.id].pic;
+            $scope.currentDetail = $scope.pws[$stateParams.id].detail;
+        }
+
+        $scope.goPwDetail = function (index) {
+            console.log(index)
+            $state.go("consultingAndJudgesDetail", {id:index})
+
+        }
     });
 

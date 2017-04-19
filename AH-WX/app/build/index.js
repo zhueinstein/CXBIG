@@ -5,7 +5,7 @@ webpackJsonp([0,1],[
 	'use strict';
 
 
-	__webpack_require__(1)
+	    __webpack_require__(1)
 	    __webpack_require__(2)
 	    __webpack_require__(3)
 	    __webpack_require__(4)
@@ -32,6 +32,7 @@ webpackJsonp([0,1],[
 	    }).state('home', {
 	        url:"/home",
 	        templateUrl: 'home/home.html',
+	        controller:"NewsCtrl"
 	    }).state('supportEnterprise', {
 	        url:"/supportEnterprise",
 	        templateUrl: 'supportEnterprise/supportEnterprise.html',
@@ -442,14 +443,14 @@ webpackJsonp([0,1],[
 	            url:"/committeeMember",
 	            templateUrl: 'matchIntroduction/committeeMember/committeeMember.html',
 	            controller: 'MatchIntroductionCtrl'
-	        }).state('/introduction', {
-	            url:"/introduction",
-	            templateUrl: 'matchIntroduction/introduction.html',
+	        }).state('consultingAndJudgesDetail', {
+	            url:"/consultingAndJudgesDetail/:id",
+	            templateUrl: 'matchIntroduction/consultingAndJudges/consultingAndJudgesDetail.html',
 	            controller: 'MatchIntroductionCtrl'
 	        });
 	    }])
 
-	    .controller('MatchIntroductionCtrl', function($scope) {
+	    .controller('MatchIntroductionCtrl', function($scope, $state, $stateParams) {
 	        $scope.pws = [
 	            {title:"郭兰英  国家一级演员 著名歌...",detail:"郭兰英  国家一级演员 著名歌唱家",pic:"../resources/images/585d310a66cd9.jpg",url:"#/pw_detail",shows:false},
 	            {title:"邓玉华  国家一级演员  著名...",detail:"邓玉华  国家一级演员  著名歌唱家",pic:"../resources/images/585516c707b80.jpg",url:"#/pw_detail",shows:false},
@@ -497,6 +498,17 @@ webpackJsonp([0,1],[
 	            {name:"支持媒体",target:"#/supportMedia",on:""},
 	            {name:"联系方式",target:"#/contactUs",on:""}
 	        ];
+
+	        if($stateParams.id){
+	            $scope.currentPic = $scope.pws[$stateParams.id].pic;
+	            $scope.currentDetail = $scope.pws[$stateParams.id].detail;
+	        }
+
+	        $scope.goPwDetail = function (index) {
+	            console.log(index)
+	            $state.go("consultingAndJudgesDetail", {id:index})
+
+	        }
 	    });
 
 
@@ -507,40 +519,63 @@ webpackJsonp([0,1],[
 
 	'use strict';
 
-	var  app = angular.module('myApp.matchColl', ['ui.router']);
+	var app = angular.module('myApp.matchColl', ['ui.router']);
 
-	    app.config(['$stateProvider', function($stateProvider) {
-	        $stateProvider.state('matchColl', {
-	            url:"/matchColl",
-	            templateUrl: 'matchColl/matchColl.html',
-	            controller: 'MatchCollCtrl'
-	        }).state('coll-corporation-conference', {
-	            url:"/coll-corporation-conference",
-	            templateUrl: 'matchColl/coll-matches/coll-corporation-conference.html',
-	            controller: 'MatchCollCtrl'
-	        }).state('matchCollVideo', {
-	            url:"/matchCollVideo",
-	            templateUrl: 'matchColl/matchCollVideo.html',
-	            controller: 'MatchCollCtrl'
-	        }).state('video-detail', {
-	            url:"/video-detail",
-	            templateUrl: 'matchColl/video-detail.html',
-	            controller: 'MatchCollCtrl'
-	        });
-	    }])
-
-	    .controller('MatchCollCtrl', function($scope) {
-	            $scope.videos = [
-	                {title:"首届中国影视歌曲歌手...",cover:"../resources/images/588ed2e514523.jpg",url:"http://vjs.zencdn.net/v/oceans.mp4"},
-	                {title:"首届中国影视歌曲歌手...",cover:"../resources/images/588ed2e514523.jpg",url:"http://vjs.zencdn.net/v/oceans.mp4"}
-	            ];
-	        $scope.png25 = "../resources/images/588ae4b560bbf.jpg";
+	app.config(['$stateProvider', function ($stateProvider) {
+	    $stateProvider.state('matchColl', {
+	        url: "/matchColl",
+	        templateUrl: 'matchColl/matchColl.html',
+	        controller: 'MatchCollCtrl'
+	    }).state('coll-corporation-conference', {
+	        url: "/coll-corporation-conference",
+	        templateUrl: 'matchColl/coll-matches/coll-corporation-conference.html',
+	        controller: 'MatchCollCtrl'
+	    }).state('matchCollVideo', {
+	        url: "/matchCollVideo",
+	        templateUrl: 'matchColl/matchCollVideo.html',
+	        controller: 'MatchCollCtrl'
+	    }).state('video-detail', {
+	        url: "/video-detail/:id",
+	        templateUrl: 'matchColl/video-detail.html',
+	        controller: 'MatchCollCtrl'
 	    });
-	    app.directive("topOfTheView", function () {
-	        return {
-	            template: '<div class="ssjj_s1 tc mt40 fix pl15"><a href="#/matchColl" class="on">精彩集锦</a><a    href="#/matchCollVideo">精彩视频</a></div><div class="height"></div>'
-	        };
-	    })
+	}])
+
+	    .controller('MatchCollCtrl', function ($scope, $state, $stateParams) {
+	        $scope.videos = [
+	            {
+	                id: 0,
+	                title: "首届中国影视歌曲...",
+	                cover: "../resources/images/588ae4b560bbf.jpg",
+	                url: "http://vjs.zencdn.net/v/oceans.mp4"
+	            },
+	            {
+	                id: 1,
+	                title: "安徽赛区启动仪式",
+	                cover: "../resources/images/ahgsdskq.png",
+	                url: "http://ool42cwl5.bkt.clouddn.com/job_video/zgysgequgsdsfbhahsq.mp4"
+	            }
+	        ];
+
+	        if ($stateParams.id) {
+	            $scope.currentUrl = $scope.videos[$stateParams.id].url;
+	            $scope.currentTitle = $scope.videos[$stateParams.id].title;
+	        }
+	        $scope.goDetail = function (id) {
+	            $state.go("video-detail", {id: id})
+	        }
+	    });
+	app.directive("topOfTheViewJj", function () {
+	    return {
+	        template: '<div class="ssjj_s1 tc mt40 fix pl15"><a href="#/matchColl" class="on">精彩集锦</a><a    href="#/matchCollVideo">精彩视频</a></div><div class="height"></div>'
+	    };
+	})
+	app.directive("topOfTheViewSp", function () {
+	    return {
+	        template: '<div class="ssjj_s1 tc mt40 fix pl15"><a href="#/matchColl" >精彩集锦</a><a' +
+	        '    href="#/matchCollVideo" class="on">精彩视频</a></div><div class="height"></div>'
+	    };
+	})
 
 /***/ }),
 /* 6 */
@@ -566,7 +601,7 @@ webpackJsonp([0,1],[
 	        });
 	    }])
 
-	    .controller('NewsCtrl', function($anchorScroll) {
+	    .controller('NewsCtrl', function($location, $anchorScroll) {
 	        $location.hash('top');
 	        $anchorScroll();
 

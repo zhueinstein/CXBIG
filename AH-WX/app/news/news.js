@@ -18,7 +18,7 @@ var  news = angular.module('myApp.news', ['ui.router']);
         });
     }])
 
-    .controller('NewsCtrl', function($anchorScroll) {
+    .controller('NewsCtrl', function($location, $anchorScroll) {
         $location.hash('top');
         $anchorScroll();
 

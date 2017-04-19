@@ -3,19 +3,22 @@
 <!-- If you'd like to support IE8 -->
 <script src="../resources/video5.18.4.js/js/videojs-ie8.min.js"></script>
 <script src="../resources/video5.18.4.js/js/video.min.js"></script>
-<script type="text/javascript"></script>
+<script type="text/javascript">
+    videojs.options.flash.swf = "video-js.swf";
+</script>
 <div class="container auto sqjj_xq1 fix mt20 ml20 centers">
     <div class="m">
         <video id="my-video" class="video-js" controls preload="auto" width="640" height="264"
                poster="MY_VIDEO_POSTER.jpg" data-setup="{}">
-            <source src="http://vjs.zencdn.net/v/oceans.mp4" type="video/mp4">
-            <source src="http://vjs.zencdn.net/v/oceans.webm" type="video/webm">
-            <source src="http://vjs.zencdn.net/v/oceans.ogv" type="video/ogg">
+            <source src="{{currentUrl}}" type="video/mp4">
+            <source src="{{currentUrl}}" type="video/webm">
+            <source src="{{currentUrl}}" type="video/ogg">
             <p class="vjs-no-js">
                 To view this video please enable JavaScript, and consider upgrading to a web browser that
                 <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
             </p>
         </video>
+        <div style="text-align: center;font-size: 16px;margin-top: 20px;">{{currentTitle}}</div>
         <script src="http://vjs.zencdn.net/5.18.4/video.min.js"></script>
         <script type="text/javascript">
             var myPlayer = videojs('my-video');

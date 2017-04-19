@@ -12,9 +12,8 @@
 
 <div class="container auto zzwy_s1 fix mt20 ml20" ng-controller="MatchIntroductionCtrl">
     <s ng-repeat="pw in pws">
-        <a href="{{pw.url}}" tppabs="http://www.china-ygs.com/Wap/Index/show/catid/12/id/167.html">
-            <img src="{{pw.pic}}" tppabs="http://www.china-ygs.com/Uploads/Content/2016-12-23/585d310a66cd9.jpg"
-                 width="291" height="328">
+        <a ng-click="goPwDetail($index)">
+            <img src="{{pw.pic}}" width="291" height="328">
             <p>{{pw.title}}</p>
         </a>
     </s>
