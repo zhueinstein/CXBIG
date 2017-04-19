@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f38d1ab8-377e-4b4b-8550-b9756bfcd095" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AH-WX/app/matchIntroduction/matchIntroduction.js" afterPath="$PROJECT_DIR$/AH-WX/app/matchIntroduction/matchIntroduction.js" />
-    </list>
+    <list default="true" id="f38d1ab8-377e-4b4b-8550-b9756bfcd095" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -110,7 +108,7 @@
         <entry file="file://$PROJECT_DIR$/AH-WX/app/matchIntroduction/matchIntroduction.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="264">
-              <caret line="54" column="108" lean-forward="false" selection-start-line="54" selection-start-column="108" selection-end-line="54" selection-end-column="108" />
+              <caret line="54" column="54" lean-forward="true" selection-start-line="54" selection-start-column="54" selection-end-line="54" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -1149,15 +1147,15 @@
       <workItem from="1492416555479" duration="1611000" />
       <workItem from="1492499677418" duration="8410000" />
       <workItem from="1492509078007" duration="11000" />
-      <workItem from="1492567036763" duration="14624000" />
+      <workItem from="1492567036763" duration="15072000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81057000" />
+    <option name="totallyTimeSpent" value="81505000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1574,7 +1572,7 @@
     <entry file="file://$PROJECT_DIR$/AH-WX/app/matchIntroduction/matchIntroduction.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
-          <caret line="54" column="108" lean-forward="false" selection-start-line="54" selection-start-column="108" selection-end-line="54" selection-end-column="108" />
+          <caret line="54" column="54" lean-forward="true" selection-start-line="54" selection-start-column="54" selection-end-line="54" selection-end-column="54" />
           <folding />
         </state>
       </provider>
