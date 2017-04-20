@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="boot">
+    <output-path>$PROJECT_DIR$/out/artifacts/boot</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="hzcm" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

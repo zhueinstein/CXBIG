@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/CXBIG.iml" filepath="$PROJECT_DIR$/.idea/CXBIG.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hzcm/hzcm.iml" filepath="$PROJECT_DIR$/hzcm/hzcm.iml" />
     </modules>
   </component>
 </project>
