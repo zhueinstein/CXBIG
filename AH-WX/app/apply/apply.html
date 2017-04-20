@@ -8,5 +8,14 @@
     <div style="font-size: 16px;margin-top: 20px;">
         长按识别二维码，参与报名
     </div>
+    <div ng-controller="ApplyCtrl">
+        影视歌曲大赛在线报名<br/>
+        姓名：<input type="text" class="line-gap" ng-model="user.name"><br/>
+        性别：<input type="text" class="line-gap" ng-model="user.sex"><br/>
+        电话：<input type="text" class="line-gap" ng-model="user.telephone"><br/>
+        贯籍：<input type="text" class="line-gap" ng-model="user.address"><br/>
+        分组：<input type="text" class="line-gap" ng-model="user.group"><br/>
+        <button class="btn btn-primary" ng-click="submit()">提交</button>
+    </div>
 </div>
 </div>

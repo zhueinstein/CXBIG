@@ -7,6 +7,7 @@
     require('./matchIntroduction/matchIntroduction.js')
     require('./matchColl/matchColl.js')
     require('./news/news.js')
+    require('./apply/apply.js')
     require('./components/version/version.js')
     require('./components/version/version-directive.js')
     require('./components/version/interpolate-filter.js')
@@ -16,6 +17,7 @@ angular.module('myApp', [
   'myApp.matchIntroduction',
   'myApp.matchColl',
   'myApp.news',
+  'myApp.apply',
   'myApp.version'
 ]).
 config(['$locationProvider', '$stateProvider','$urlRouterProvider', function($locationProvider, $stateProvider,$urlRouterProvider) {
