@@ -25,13 +25,11 @@ app.config(['$stateProvider', function ($stateProvider) {
     .controller('MatchCollCtrl', function ($scope, $state, $stateParams) {
         $scope.videos = [
             {
-                id: 0,
-                title: "首届中国影视歌曲...",
-                cover: "../resources/images/588ae4b560bbf.jpg",
-                url: "http://vjs.zencdn.net/v/oceans.mp4"
+                title: "中国影视歌曲大赛安徽海选",
+                cover: "../resources/images/ahgsdskq.png",
+                url: "http://ool42cwl5.bkt.clouddn.com/job_video/geshougqdshx_20170424.mp4"
             },
             {
-                id: 1,
                 title: "安徽赛区启动仪式",
                 cover: "../resources/images/ahgsdskq.png",
                 url: "http://ool42cwl5.bkt.clouddn.com/job_video/zgysgequgsdsfbhahsq.mp4"

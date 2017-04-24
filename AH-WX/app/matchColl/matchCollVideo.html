@@ -3,7 +3,7 @@
 
 <div class="container auto spjj_s2 fix mt20 ml20">
     <div style="display: inline;height: inherit;width: inherit;" ng-repeat="video in videos" >
-        <a ng-click="goDetail(video.id)" class="pointer">
+        <a ng-click="goDetail($index)" class="pointer">
             <img src="{{video.cover}}" width="291" height="218">
             <span class="fl pointer">{{video.title}}</span>
             <span class="fr">2017-01-27</span>

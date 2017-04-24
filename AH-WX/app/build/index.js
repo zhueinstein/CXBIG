@@ -546,13 +546,11 @@ webpackJsonp([0,1],[
 	    .controller('MatchCollCtrl', function ($scope, $state, $stateParams) {
 	        $scope.videos = [
 	            {
-	                id: 0,
-	                title: "首届中国影视歌曲...",
-	                cover: "../resources/images/588ae4b560bbf.jpg",
-	                url: "http://vjs.zencdn.net/v/oceans.mp4"
+	                title: "中国影视歌曲大赛安徽海选",
+	                cover: "../resources/images/ahgsdskq.png",
+	                url: "http://ool42cwl5.bkt.clouddn.com/job_video/geshougqdshx_20170424.mp4"
 	            },
 	            {
-	                id: 1,
 	                title: "安徽赛区启动仪式",
 	                cover: "../resources/images/ahgsdskq.png",
 	                url: "http://ool42cwl5.bkt.clouddn.com/job_video/zgysgequgsdsfbhahsq.mp4"
@@ -646,23 +644,23 @@ webpackJsonp([0,1],[
 	        "青年组"
 	    }
 
-	    $scope.submit = function () {
+	   /* $scope.submit = function () {
 	           console.log($scope.user)
-	            var myUrl = 'http://localhost:8099/a/rule/order/add?callback=JSON_CALLBACK&user='+ JSON.stringify($scope.user);
+	            var myUrl = 'http://localhost:8080/?callback=JSON_CALLBACK&user='+ JSON.stringify($scope.user);
 	           console.log(JSON.stringify($scope.user))
 	        $http.jsonp(myUrl).success(function(response) {
 	            console.log(response);
 	            $scope.myarr = response;
 	        });
-	        /*$http({
+	        /!*$http({
 	            method: 'GET',
 	        }).then(function successCallback(response) {
 	            // this callback will be called asynchronously
 	            // when the response is available
 	        }, function errorCallback(response) {
 	            console.log($scope.user)
-	        });*/
-	    }
+	        });*!/
+	    }*/
 	    });
 
 
